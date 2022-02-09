@@ -1,0 +1,35 @@
+{
+    "id": "allergyintolerancetype-supplement",
+    "concept": [
+        {
+            "code": "allergy",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Allergie"
+                }
+            ]
+        },
+        {
+            "code": "intolerance",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Unverträglichkeit"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für AllergyIntoleranceType",
+    "experimental": true,
+    "name": "SupplementAllergyIntoleranceType",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://hl7.org/fhir/allergy-intolerance-type",
+    "title": "Supplement AllergyIntoleranceType",
+    "url": "http://fhir.de/CodeSystem/allergyintolerancetype-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

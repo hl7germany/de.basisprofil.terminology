@@ -1,0 +1,80 @@
+{
+    "id": "contactpointsystem-supplement",
+    "concept": [
+        {
+            "code": "other",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Sonstiges"
+                }
+            ]
+        },
+        {
+            "code": "sms",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "SMS"
+                }
+            ]
+        },
+        {
+            "code": "url",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "URL"
+                }
+            ]
+        },
+        {
+            "code": "pager",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Pager"
+                }
+            ]
+        },
+        {
+            "code": "email",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "E-Mail"
+                }
+            ]
+        },
+        {
+            "code": "fax",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Fax"
+                }
+            ]
+        },
+        {
+            "code": "phone",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Telefon"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für ContactPointSystem",
+    "experimental": true,
+    "name": "SupplementContactPointSystem",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://hl7.org/fhir/contact-point-system",
+    "title": "Supplement ContactPointSystem",
+    "url": "http://fhir.de/CodeSystem/contactpointsystem-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

@@ -1,0 +1,152 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "supplement",
+  "name": "SupplementQuestionnaireItemType",
+  "id": "questionnaireitemtype-supplement",
+  "title": "Supplement QuestionnaireItemType",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für QuestionnaireItemType",
+  "version": "0.1.0",
+  "url": "http://fhir.de/CodeSystem/questionnaireitemtype-supplement",
+  "concept": [
+    {
+      "code": "group",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gruppe"
+        }
+      ]
+    },
+    {
+      "code": "display",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Anzeige"
+        }
+      ]
+    },
+    {
+      "code": "question",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Frage"
+        }
+      ]
+    },
+    {
+      "code": "boolean",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Boolscher Wert"
+        }
+      ]
+    },
+    {
+      "code": "decimal",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Dezimalzahl"
+        }
+      ]
+    },
+    {
+      "code": "integer",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ganzzahl"
+        }
+      ]
+    },
+    {
+      "code": "date",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Datum"
+        }
+      ]
+    },
+    {
+      "code": "dateTime",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Datum/Zeit"
+        }
+      ]
+    },
+    {
+      "code": "time",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Uhrzeit"
+        }
+      ]
+    },
+    {
+      "code": "string",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Freitext"
+        }
+      ]
+    },
+    {
+      "code": "text",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Text"
+        }
+      ]
+    },
+    {
+      "code": "url",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "URL"
+        }
+      ]
+    },
+    {
+      "code": "choice",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Wahl"
+        }
+      ]
+    },
+    {
+      "code": "open-choice",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Freie Wahl"
+        }
+      ]
+    },
+    {
+      "code": "quantity",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Wert"
+        }
+      ]
+    }
+  ],
+  "date": "2022-02-09",
+  "experimental": true,
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "supplements": "http://hl7.org/fhir/item-type"
+}

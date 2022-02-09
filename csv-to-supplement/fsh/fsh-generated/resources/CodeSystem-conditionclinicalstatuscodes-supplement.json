@@ -1,0 +1,71 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "supplement",
+  "name": "SupplementConditionClinicalStatusCodes",
+  "id": "conditionclinicalstatuscodes-supplement",
+  "title": "Supplement ConditionClinicalStatusCodes",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für ConditionClinicalStatusCodes",
+  "version": "0.1.0",
+  "url": "http://fhir.de/CodeSystem/conditionclinicalstatuscodes-supplement",
+  "concept": [
+    {
+      "code": "active",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Aktiv"
+        }
+      ]
+    },
+    {
+      "code": "recurrence",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Wiederauftreten"
+        }
+      ]
+    },
+    {
+      "code": "relapse",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Rezidiv"
+        }
+      ]
+    },
+    {
+      "code": "inactive",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Inaktiv"
+        }
+      ]
+    },
+    {
+      "code": "remission",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Remission"
+        }
+      ]
+    },
+    {
+      "code": "resolved",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Behoben"
+        }
+      ]
+    }
+  ],
+  "date": "2022-02-09",
+  "experimental": true,
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "supplements": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+}

@@ -1,0 +1,98 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "supplement",
+  "name": "SupplementGoalAchievementStatus",
+  "id": "goalachievementstatus-supplement",
+  "title": "Supplement GoalAchievementStatus",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für GoalAchievementStatus",
+  "version": "0.1.0",
+  "url": "http://fhir.de/CodeSystem/goalachievementstatus-supplement",
+  "concept": [
+    {
+      "code": "in-progress",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Im Gang"
+        }
+      ]
+    },
+    {
+      "code": "improving",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Sich bessernd"
+        }
+      ]
+    },
+    {
+      "code": "worsening",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Sich verschlechternd"
+        }
+      ]
+    },
+    {
+      "code": "no-change",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Kein Änderung"
+        }
+      ]
+    },
+    {
+      "code": "achieved",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Erreicht"
+        }
+      ]
+    },
+    {
+      "code": "sustaining",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Unterstützend"
+        }
+      ]
+    },
+    {
+      "code": "not-achieved",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nicht erreicht"
+        }
+      ]
+    },
+    {
+      "code": "no-progress",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Kein Fortschritt"
+        }
+      ]
+    },
+    {
+      "code": "not-attainable",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nicht erreichbar"
+        }
+      ]
+    }
+  ],
+  "date": "2022-02-09",
+  "experimental": true,
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "supplements": "http://terminology.hl7.org/CodeSystem/goal-achievement"
+}

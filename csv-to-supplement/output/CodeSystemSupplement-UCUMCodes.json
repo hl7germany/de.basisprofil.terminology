@@ -1,0 +1,53 @@
+{
+    "id": "ucumcodes-supplement",
+    "concept": [
+        {
+            "code": "/h",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "pro Stunde"
+                }
+            ]
+        },
+        {
+            "code": "/d",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "pro Tag"
+                }
+            ]
+        },
+        {
+            "code": "/wk",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "pro Woche"
+                }
+            ]
+        },
+        {
+            "code": "/mo",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "pro Monat"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für UCUMCodes",
+    "experimental": true,
+    "name": "SupplementUCUMCodes",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://unitsofmeasure.org",
+    "title": "Supplement UCUMCodes",
+    "url": "http://fhir.de/CodeSystem/ucumcodes-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

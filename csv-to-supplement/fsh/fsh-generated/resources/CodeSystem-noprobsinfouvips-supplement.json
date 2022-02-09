@@ -1,0 +1,35 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "supplement",
+  "name": "SupplementNoProbsInfoUvIps",
+  "id": "noprobsinfouvips-supplement",
+  "title": "Supplement NoProbsInfoUvIps",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für NoProbsInfoUvIps",
+  "version": "0.1.0",
+  "url": "http://fhir.de/CodeSystem/noprobsinfouvips-supplement",
+  "concept": [
+    {
+      "code": "no-problem-info",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Keine Informationen über aktuelle Probleme"
+        }
+      ]
+    },
+    {
+      "code": "no-known-problems",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Keine bekannten Probleme"
+        }
+      ]
+    }
+  ],
+  "date": "2022-02-09",
+  "experimental": true,
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "supplements": ""
+}

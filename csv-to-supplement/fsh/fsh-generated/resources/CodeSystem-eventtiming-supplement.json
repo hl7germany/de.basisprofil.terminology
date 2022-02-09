@@ -1,0 +1,125 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "supplement",
+  "name": "SupplementEventTiming",
+  "id": "eventtiming-supplement",
+  "title": "Supplement EventTiming",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für EventTiming",
+  "version": "0.1.0",
+  "url": "http://fhir.de/CodeSystem/eventtiming-supplement",
+  "concept": [
+    {
+      "code": "MORN",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Morgens"
+        }
+      ]
+    },
+    {
+      "code": "MORN.early",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Früher Morgen"
+        }
+      ]
+    },
+    {
+      "code": "MORN.late",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Später Vormittag"
+        }
+      ]
+    },
+    {
+      "code": "NOON",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Mittags"
+        }
+      ]
+    },
+    {
+      "code": "AFT",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nachmittag"
+        }
+      ]
+    },
+    {
+      "code": "AFT.early",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Früher Nachmittag"
+        }
+      ]
+    },
+    {
+      "code": "AFT.late",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Später Nachmittag"
+        }
+      ]
+    },
+    {
+      "code": "EVE",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Abends"
+        }
+      ]
+    },
+    {
+      "code": "EVE.early",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Früher Abend"
+        }
+      ]
+    },
+    {
+      "code": "EVE.late",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Später Abend"
+        }
+      ]
+    },
+    {
+      "code": "NIGHT",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nachts"
+        }
+      ]
+    },
+    {
+      "code": "PHS",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nach dem Schlaf"
+        }
+      ]
+    }
+  ],
+  "date": "2022-02-09",
+  "experimental": true,
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "supplements": "http://hl7.org/fhir/event-timing"
+}

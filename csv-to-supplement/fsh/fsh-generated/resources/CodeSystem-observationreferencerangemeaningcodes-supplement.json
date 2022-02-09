@@ -1,0 +1,134 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "supplement",
+  "name": "SupplementObservationReferenceRangeMeaningCodes",
+  "id": "observationreferencerangemeaningcodes-supplement",
+  "title": "Supplement ObservationReferenceRangeMeaningCodes",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für ObservationReferenceRangeMeaningCodes",
+  "version": "0.1.0",
+  "url": "http://fhir.de/CodeSystem/observationreferencerangemeaningcodes-supplement",
+  "concept": [
+    {
+      "code": "type",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Generell"
+        }
+      ]
+    },
+    {
+      "code": "normal",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Referenzbereich"
+        }
+      ]
+    },
+    {
+      "code": "recommended",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Entscheidungsgrenze, Bewertungsgrenze"
+        }
+      ]
+    },
+    {
+      "code": "treatment",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Therapeutischer Bereich"
+        }
+      ]
+    },
+    {
+      "code": "therapeutic",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Therapeutischer Zielbereich"
+        }
+      ]
+    },
+    {
+      "code": "pre",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Prätherapeutischer Zielbereich"
+        }
+      ]
+    },
+    {
+      "code": "post",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Posttherapeutischer Zielbereich"
+        }
+      ]
+    },
+    {
+      "code": "endocrine",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Endokrinologisch adaptiert"
+        }
+      ]
+    },
+    {
+      "code": "pre-puberty",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Erwartungsbereich präpubertär"
+        }
+      ]
+    },
+    {
+      "code": "follicular",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Erwartungsbereich im follikulären Stadium"
+        }
+      ]
+    },
+    {
+      "code": "midcycle",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Erwartungsbereich in der Zyklusmitte"
+        }
+      ]
+    },
+    {
+      "code": "luteal",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Erwartungsbereich in der lutealen Phase"
+        }
+      ]
+    },
+    {
+      "code": "postmenopausal",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Erwartungsbereich postmenopausal"
+        }
+      ]
+    }
+  ],
+  "date": "2022-02-09",
+  "experimental": true,
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "supplements": "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+}

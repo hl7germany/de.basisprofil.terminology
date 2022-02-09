@@ -1,0 +1,71 @@
+{
+    "id": "devicenametype-supplement",
+    "concept": [
+        {
+            "code": "udi-label-name",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "UDI Kennzeichnungsname"
+                }
+            ]
+        },
+        {
+            "code": "user-friendly-name",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Benutzerfreundlicher Name"
+                }
+            ]
+        },
+        {
+            "code": "patient-reported-name",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Patientenberichteter Name"
+                }
+            ]
+        },
+        {
+            "code": "manufacturer-name",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Herstellername"
+                }
+            ]
+        },
+        {
+            "code": "model-name",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Modellname"
+                }
+            ]
+        },
+        {
+            "code": "other",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Sonstige"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für DeviceNameType",
+    "experimental": true,
+    "name": "SupplementDeviceNameType",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://hl7.org/fhir/device-nametype",
+    "title": "Supplement DeviceNameType",
+    "url": "http://fhir.de/CodeSystem/devicenametype-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

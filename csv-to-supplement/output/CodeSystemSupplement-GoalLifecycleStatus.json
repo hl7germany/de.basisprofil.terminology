@@ -1,0 +1,98 @@
+{
+    "id": "goallifecyclestatus-supplement",
+    "concept": [
+        {
+            "code": "proposed",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Vorgeschlagen"
+                }
+            ]
+        },
+        {
+            "code": "planned",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Geplant"
+                }
+            ]
+        },
+        {
+            "code": "accepted",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Angenommen"
+                }
+            ]
+        },
+        {
+            "code": "active",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Aktiv"
+                }
+            ]
+        },
+        {
+            "code": "on-hold",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Suspendiert"
+                }
+            ]
+        },
+        {
+            "code": "completed",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Abgeschlossen"
+                }
+            ]
+        },
+        {
+            "code": "cancelled",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Storniert"
+                }
+            ]
+        },
+        {
+            "code": "entered-in-error",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Irrtürmliche Eingabe"
+                }
+            ]
+        },
+        {
+            "code": "rejected",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Abgelehnt"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für GoalLifecycleStatus",
+    "experimental": true,
+    "name": "SupplementGoalLifecycleStatus",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://hl7.org/fhir/goal-status",
+    "title": "Supplement GoalLifecycleStatus",
+    "url": "http://fhir.de/CodeSystem/goallifecyclestatus-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

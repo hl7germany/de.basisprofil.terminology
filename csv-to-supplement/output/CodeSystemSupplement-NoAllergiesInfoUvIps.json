@@ -1,0 +1,62 @@
+{
+    "id": "noallergiesinfouvips-supplement",
+    "concept": [
+        {
+            "code": "no-allergy-info",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine Information über Allergien (vorliegend)"
+                }
+            ]
+        },
+        {
+            "code": "no-known-allergies",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine bekannten Allergien"
+                }
+            ]
+        },
+        {
+            "code": "no-known-medication-allergies",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine bekannten Arzneimittelallergien"
+                }
+            ]
+        },
+        {
+            "code": "no-known-environmental-allergies",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine bekannten umweltbedingten Allergien"
+                }
+            ]
+        },
+        {
+            "code": "no-known-food-allergies",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine bekannten Lebensmittelallergien"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für NoAllergiesInfoUvIps",
+    "experimental": true,
+    "name": "SupplementNoAllergiesInfoUvIps",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+    "title": "Supplement NoAllergiesInfoUvIps",
+    "url": "http://fhir.de/CodeSystem/noallergiesinfouvips-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

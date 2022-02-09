@@ -1,0 +1,440 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "supplement",
+  "name": "Supplementv3ObservationInterpretation",
+  "id": "v3.observationinterpretation-supplement",
+  "title": "Supplement v3.ObservationInterpretation",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für v3.ObservationInterpretation",
+  "version": "0.1.0",
+  "url": "http://fhir.de/CodeSystem/v3.observationinterpretation-supplement",
+  "concept": [
+    {
+      "code": "_GeneticObservationInterpretation",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Interpretation der genetischen Analyse"
+        }
+      ]
+    },
+    {
+      "code": "CAR",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Anlageträger"
+        }
+      ]
+    },
+    {
+      "code": "_ObservationInterpretationChange",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Änderungsverlauf"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Besser"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Signifikanter Anstieg"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Signifikanter Rückgang"
+        }
+      ]
+    },
+    {
+      "code": "W",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Schlechter"
+        }
+      ]
+    },
+    {
+      "code": "_ObservationInterpretationExceptions",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Ausnahmewertinterpretation"
+        }
+      ]
+    },
+    {
+      "code": "kleinerals",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Unterhalb der analytischen Grenze"
+        }
+      ]
+    },
+    {
+      "code": "größerals",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Oberhalb der analytischen Grenze"
+        }
+      ]
+    },
+    {
+      "code": "IE",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Evidenz unzureichend"
+        }
+      ]
+    },
+    {
+      "code": "_ObservationInterpretationNormality",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Normalitätsinterpretation"
+        }
+      ]
+    },
+    {
+      "code": "A",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Abnormal"
+        }
+      ]
+    },
+    {
+      "code": "AA",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Kritisch abnormal"
+        }
+      ]
+    },
+    {
+      "code": "HH",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Kritisch erhöht"
+        }
+      ]
+    },
+    {
+      "code": "LL",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Kritisch erniedrigt"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Erhöht"
+        }
+      ]
+    },
+    {
+      "code": "HU",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Signifikant erhöht"
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Erniedrigt"
+        }
+      ]
+    },
+    {
+      "code": "LU",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Signifikant erniedrigt"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Normal"
+        }
+      ]
+    },
+    {
+      "code": "_ObservationInterpretationSusceptibility",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Interpretation antimikrobieller Empfindlichkeit"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "mittlere Empfindlichkeit"
+        }
+      ]
+    },
+    {
+      "code": "NCL",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Kein CLSI definierter Schwellenwert für Empfindlichkeit verfügbar"
+        }
+      ]
+    },
+    {
+      "code": "NS",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nicht empfindlich"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Resistent"
+        }
+      ]
+    },
+    {
+      "code": "SYN-R",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Resistent gegenüber Substanzkombination"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Empfindlich"
+        }
+      ]
+    },
+    {
+      "code": "SDD",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Dosis-/Konzentrationsabhängige Empfindlichkeit"
+        }
+      ]
+    },
+    {
+      "code": "SYN-S",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Empfindlich gegenüber Substanzkombination"
+        }
+      ]
+    },
+    {
+      "code": "EX",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Interpretation außerhalb des Grenzwertes"
+        }
+      ]
+    },
+    {
+      "code": "HX",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Oberhalb des oberen Grenzwerts"
+        }
+      ]
+    },
+    {
+      "code": "LX",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Unterhalb des unteren Grenzwerts"
+        }
+      ]
+    },
+    {
+      "code": "ObservationInterpretationDetection",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Feststellungsinterpretation"
+        }
+      ]
+    },
+    {
+      "code": "IND",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Unbestimmbar"
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Uneindeutig"
+        }
+      ]
+    },
+    {
+      "code": "NEG",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Negativ"
+        }
+      ]
+    },
+    {
+      "code": "ND",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nicht nachgewiesen"
+        }
+      ]
+    },
+    {
+      "code": "POS",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Positiv"
+        }
+      ]
+    },
+    {
+      "code": "DET",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nachgewiesen"
+        }
+      ]
+    },
+    {
+      "code": "ObservationInterpretationExpectation",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Erwartungsinterpretation"
+        }
+      ]
+    },
+    {
+      "code": "EXP",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Erwartet"
+        }
+      ]
+    },
+    {
+      "code": "UNE",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Unerwartet"
+        }
+      ]
+    },
+    {
+      "code": "ReactivityObservationInterpretation",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Reaktivitätsinterpretation"
+        }
+      ]
+    },
+    {
+      "code": "NR",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nicht reaktiv"
+        }
+      ]
+    },
+    {
+      "code": "RR",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Reaktiv"
+        }
+      ]
+    },
+    {
+      "code": "WR",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Schwach reaktiv"
+        }
+      ]
+    }
+  ],
+  "date": "2022-02-09",
+  "experimental": true,
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "supplements": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+}

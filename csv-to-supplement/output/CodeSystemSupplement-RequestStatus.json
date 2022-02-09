@@ -1,0 +1,80 @@
+{
+    "id": "requeststatus-supplement",
+    "concept": [
+        {
+            "code": "draft",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Entwurf"
+                }
+            ]
+        },
+        {
+            "code": "active",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Aktiv"
+                }
+            ]
+        },
+        {
+            "code": "on-hold",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Suspendiert"
+                }
+            ]
+        },
+        {
+            "code": "revoked",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Widerrufen"
+                }
+            ]
+        },
+        {
+            "code": "completed",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Erledigt"
+                }
+            ]
+        },
+        {
+            "code": "entered-in-error",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Irrtürmliche Eingabe"
+                }
+            ]
+        },
+        {
+            "code": "unknown",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Unbekannt"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für RequestStatus",
+    "experimental": true,
+    "name": "SupplementRequestStatus",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://hl7.org/fhir/request-status",
+    "title": "Supplement RequestStatus",
+    "url": "http://fhir.de/CodeSystem/requeststatus-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

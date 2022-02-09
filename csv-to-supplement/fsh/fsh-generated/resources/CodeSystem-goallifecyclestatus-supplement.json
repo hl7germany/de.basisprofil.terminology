@@ -1,0 +1,98 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "supplement",
+  "name": "SupplementGoalLifecycleStatus",
+  "id": "goallifecyclestatus-supplement",
+  "title": "Supplement GoalLifecycleStatus",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für GoalLifecycleStatus",
+  "version": "0.1.0",
+  "url": "http://fhir.de/CodeSystem/goallifecyclestatus-supplement",
+  "concept": [
+    {
+      "code": "proposed",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Vorgeschlagen"
+        }
+      ]
+    },
+    {
+      "code": "planned",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Geplant"
+        }
+      ]
+    },
+    {
+      "code": "accepted",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Angenommen"
+        }
+      ]
+    },
+    {
+      "code": "active",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Aktiv"
+        }
+      ]
+    },
+    {
+      "code": "on-hold",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Suspendiert"
+        }
+      ]
+    },
+    {
+      "code": "completed",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Abgeschlossen"
+        }
+      ]
+    },
+    {
+      "code": "cancelled",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Storniert"
+        }
+      ]
+    },
+    {
+      "code": "entered-in-error",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Irrtürmliche Eingabe"
+        }
+      ]
+    },
+    {
+      "code": "rejected",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Abgelehnt"
+        }
+      ]
+    }
+  ],
+  "date": "2022-02-09",
+  "experimental": true,
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "supplements": "http://hl7.org/fhir/goal-status"
+}

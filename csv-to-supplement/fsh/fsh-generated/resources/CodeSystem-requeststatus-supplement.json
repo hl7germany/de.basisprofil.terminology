@@ -1,0 +1,80 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "supplement",
+  "name": "SupplementRequestStatus",
+  "id": "requeststatus-supplement",
+  "title": "Supplement RequestStatus",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für RequestStatus",
+  "version": "0.1.0",
+  "url": "http://fhir.de/CodeSystem/requeststatus-supplement",
+  "concept": [
+    {
+      "code": "draft",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Entwurf"
+        }
+      ]
+    },
+    {
+      "code": "active",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Aktiv"
+        }
+      ]
+    },
+    {
+      "code": "on-hold",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Suspendiert"
+        }
+      ]
+    },
+    {
+      "code": "revoked",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Widerrufen"
+        }
+      ]
+    },
+    {
+      "code": "completed",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Erledigt"
+        }
+      ]
+    },
+    {
+      "code": "entered-in-error",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Irrtürmliche Eingabe"
+        }
+      ]
+    },
+    {
+      "code": "unknown",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Unbekannt"
+        }
+      ]
+    }
+  ],
+  "date": "2022-02-09",
+  "experimental": true,
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "supplements": "http://hl7.org/fhir/request-status"
+}

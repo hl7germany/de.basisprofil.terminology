@@ -1,0 +1,89 @@
+{
+    "id": "eventstatus-supplement",
+    "concept": [
+        {
+            "code": "preparation",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "In Vorbereitung"
+                }
+            ]
+        },
+        {
+            "code": "in-progress",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Im Gange"
+                }
+            ]
+        },
+        {
+            "code": "not-done",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Nicht durchgeführt"
+                }
+            ]
+        },
+        {
+            "code": "on-hold",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Suspendiert"
+                }
+            ]
+        },
+        {
+            "code": "stopped",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Gestoppt"
+                }
+            ]
+        },
+        {
+            "code": "completed",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Erledigt"
+                }
+            ]
+        },
+        {
+            "code": "entered-in-error",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Irrtümliche Eingabe"
+                }
+            ]
+        },
+        {
+            "code": "unknown",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Unbekannt"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für EventStatus",
+    "experimental": true,
+    "name": "SupplementEventStatus",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://hl7.org/fhir/event-status",
+    "title": "Supplement EventStatus",
+    "url": "http://fhir.de/CodeSystem/eventstatus-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

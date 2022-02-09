@@ -1,0 +1,53 @@
+{
+    "id": "allergyintoleranceverificationstatuscodes-supplement",
+    "concept": [
+        {
+            "code": "unconfirmed",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Unbestätigt"
+                }
+            ]
+        },
+        {
+            "code": "confirmed",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Bestätigt"
+                }
+            ]
+        },
+        {
+            "code": "refuted",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Widerlegt"
+                }
+            ]
+        },
+        {
+            "code": "entered-in-error",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Versehentlich eingegeben"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für AllergyIntoleranceVerificationStatusCodes",
+    "experimental": true,
+    "name": "SupplementAllergyIntoleranceVerificationStatusCodes",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+    "title": "Supplement AllergyIntoleranceVerificationStatusCodes",
+    "url": "http://fhir.de/CodeSystem/allergyintoleranceverificationstatuscodes-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

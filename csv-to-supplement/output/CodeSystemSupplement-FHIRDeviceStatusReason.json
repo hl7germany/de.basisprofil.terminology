@@ -1,0 +1,89 @@
+{
+    "id": "fhirdevicestatusreason-supplement",
+    "concept": [
+        {
+            "code": "online",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Online"
+                }
+            ]
+        },
+        {
+            "code": "paused",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Pausiert"
+                }
+            ]
+        },
+        {
+            "code": "standby",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Stand-by"
+                }
+            ]
+        },
+        {
+            "code": "offline",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Offline"
+                }
+            ]
+        },
+        {
+            "code": "not-ready",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Nicht bereit"
+                }
+            ]
+        },
+        {
+            "code": "transduc-discon",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Signalgeber nicht verbunden"
+                }
+            ]
+        },
+        {
+            "code": "hw-discon",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Hardware nicht verbunden"
+                }
+            ]
+        },
+        {
+            "code": "off",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Aus"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für FHIRDeviceStatusReason",
+    "experimental": true,
+    "name": "SupplementFHIRDeviceStatusReason",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://terminology.hl7.org/CodeSystem/device-status-reason",
+    "title": "Supplement FHIRDeviceStatusReason",
+    "url": "http://fhir.de/CodeSystem/fhirdevicestatusreason-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

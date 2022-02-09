@@ -1,0 +1,89 @@
+{
+    "id": "medication-status-codes-supplement",
+    "concept": [
+        {
+            "code": "active",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Aktiv"
+                }
+            ]
+        },
+        {
+            "code": "completed",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Abgeschlossen"
+                }
+            ]
+        },
+        {
+            "code": "entered-in-error",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Irrtürmliche Eingabe"
+                }
+            ]
+        },
+        {
+            "code": "intended",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Beabsichtigt"
+                }
+            ]
+        },
+        {
+            "code": "stopped",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Gestoppt"
+                }
+            ]
+        },
+        {
+            "code": "on-hold",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Suspendiert"
+                }
+            ]
+        },
+        {
+            "code": "unknown",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Unbekannt"
+                }
+            ]
+        },
+        {
+            "code": "not-taken",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Nicht eingenommen"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für Medication Status Codes",
+    "experimental": true,
+    "name": "SupplementMedicationStatusCodes",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://hl7.org/fhir/CodeSystem/medication-statement-status",
+    "title": "Supplement Medication Status Codes",
+    "url": "http://fhir.de/CodeSystem/medication-status-codes-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

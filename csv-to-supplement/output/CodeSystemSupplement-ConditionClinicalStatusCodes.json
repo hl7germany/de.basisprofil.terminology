@@ -1,0 +1,71 @@
+{
+    "id": "conditionclinicalstatuscodes-supplement",
+    "concept": [
+        {
+            "code": "active",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Aktiv"
+                }
+            ]
+        },
+        {
+            "code": "recurrence",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Wiederauftreten"
+                }
+            ]
+        },
+        {
+            "code": "relapse",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Rezidiv"
+                }
+            ]
+        },
+        {
+            "code": "inactive",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Inaktiv"
+                }
+            ]
+        },
+        {
+            "code": "remission",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Remission"
+                }
+            ]
+        },
+        {
+            "code": "resolved",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Behoben"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für ConditionClinicalStatusCodes",
+    "experimental": true,
+    "name": "SupplementConditionClinicalStatusCodes",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+    "title": "Supplement ConditionClinicalStatusCodes",
+    "url": "http://fhir.de/CodeSystem/conditionclinicalstatuscodes-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

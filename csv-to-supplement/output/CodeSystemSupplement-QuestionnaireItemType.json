@@ -1,0 +1,152 @@
+{
+    "id": "questionnaireitemtype-supplement",
+    "concept": [
+        {
+            "code": "group",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Gruppe"
+                }
+            ]
+        },
+        {
+            "code": "display",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Anzeige"
+                }
+            ]
+        },
+        {
+            "code": "question",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Frage"
+                }
+            ]
+        },
+        {
+            "code": "boolean",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Boolscher Wert"
+                }
+            ]
+        },
+        {
+            "code": "decimal",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Dezimalzahl"
+                }
+            ]
+        },
+        {
+            "code": "integer",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Ganzzahl"
+                }
+            ]
+        },
+        {
+            "code": "date",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Datum"
+                }
+            ]
+        },
+        {
+            "code": "dateTime",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Datum/Zeit"
+                }
+            ]
+        },
+        {
+            "code": "time",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Uhrzeit"
+                }
+            ]
+        },
+        {
+            "code": "string",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Freitext"
+                }
+            ]
+        },
+        {
+            "code": "text",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Text"
+                }
+            ]
+        },
+        {
+            "code": "url",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "URL"
+                }
+            ]
+        },
+        {
+            "code": "choice",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Wahl"
+                }
+            ]
+        },
+        {
+            "code": "open-choice",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Freie Wahl"
+                }
+            ]
+        },
+        {
+            "code": "quantity",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Wert"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für QuestionnaireItemType",
+    "experimental": true,
+    "name": "SupplementQuestionnaireItemType",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://hl7.org/fhir/item-type",
+    "title": "Supplement QuestionnaireItemType",
+    "url": "http://fhir.de/CodeSystem/questionnaireitemtype-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

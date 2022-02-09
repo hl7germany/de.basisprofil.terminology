@@ -1,0 +1,44 @@
+{
+    "id": "allergyintoleranceclinicalstatuscodes-supplement",
+    "concept": [
+        {
+            "code": "active",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Aktiv"
+                }
+            ]
+        },
+        {
+            "code": "inactive",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Inaktiv"
+                }
+            ]
+        },
+        {
+            "code": "resolved",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Behoben"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für AllergyIntoleranceClinicalStatusCodes",
+    "experimental": true,
+    "name": "SupplementAllergyIntoleranceClinicalStatusCodes",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+    "title": "Supplement AllergyIntoleranceClinicalStatusCodes",
+    "url": "http://fhir.de/CodeSystem/allergyintoleranceclinicalstatuscodes-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

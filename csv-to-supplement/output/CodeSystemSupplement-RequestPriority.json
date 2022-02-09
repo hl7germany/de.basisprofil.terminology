@@ -1,0 +1,53 @@
+{
+    "id": "requestpriority-supplement",
+    "concept": [
+        {
+            "code": "routine",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Routine"
+                }
+            ]
+        },
+        {
+            "code": "urgent",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Dringend"
+                }
+            ]
+        },
+        {
+            "code": "asap",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Baldmöglichst"
+                }
+            ]
+        },
+        {
+            "code": "stat",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Sofort/Notfall"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für RequestPriority",
+    "experimental": true,
+    "name": "SupplementRequestPriority",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://hl7.org/fhir/request-priority",
+    "title": "Supplement RequestPriority",
+    "url": "http://fhir.de/CodeSystem/requestpriority-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

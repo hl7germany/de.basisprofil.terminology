@@ -1,0 +1,35 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "supplement",
+  "name": "SupplementNoProceduresInfoUvIps",
+  "id": "noproceduresinfouvips-supplement",
+  "title": "Supplement NoProceduresInfoUvIps",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für NoProceduresInfoUvIps",
+  "version": "0.1.0",
+  "url": "http://fhir.de/CodeSystem/noproceduresinfouvips-supplement",
+  "concept": [
+    {
+      "code": "no-procedure-info",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Keine Informationen über vorangegangene Prozeduren"
+        }
+      ]
+    },
+    {
+      "code": "no-known-procedures",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Keine bekannten Prozeduren"
+        }
+      ]
+    }
+  ],
+  "date": "2022-02-09",
+  "experimental": true,
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "supplements": ""
+}

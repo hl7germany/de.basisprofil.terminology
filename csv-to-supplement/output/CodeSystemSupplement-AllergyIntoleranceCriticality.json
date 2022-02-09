@@ -1,0 +1,44 @@
+{
+    "id": "allergyintolerancecriticality-supplement",
+    "concept": [
+        {
+            "code": "low",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Niedriges Risiko"
+                }
+            ]
+        },
+        {
+            "code": "high",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Hohes Risiko"
+                }
+            ]
+        },
+        {
+            "code": "unable-to-assess",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Ausnahme: Risiko nicht einzuschätzen"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für AllergyIntoleranceCriticality",
+    "experimental": true,
+    "name": "SupplementAllergyIntoleranceCriticality",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://hl7.org/fhir/allergy-intolerance-criticality",
+    "title": "Supplement AllergyIntoleranceCriticality",
+    "url": "http://fhir.de/CodeSystem/allergyintolerancecriticality-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

@@ -1,0 +1,53 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "supplement",
+  "name": "SupplementCarePlanIntent",
+  "id": "careplanintent-supplement",
+  "title": "Supplement CarePlanIntent",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für CarePlanIntent",
+  "version": "0.1.0",
+  "url": "http://fhir.de/CodeSystem/careplanintent-supplement",
+  "concept": [
+    {
+      "code": "proposal",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Vorschlag"
+        }
+      ]
+    },
+    {
+      "code": "plan",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Plan"
+        }
+      ]
+    },
+    {
+      "code": "order",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Anordnung"
+        }
+      ]
+    },
+    {
+      "code": "option",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Option"
+        }
+      ]
+    }
+  ],
+  "date": "2022-02-09",
+  "experimental": true,
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "supplements": "http://hl7.org/fhir/request-intent"
+}

@@ -1,0 +1,107 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "supplement",
+  "name": "SupplementDiagnosticReportStatus",
+  "id": "diagnosticreportstatus-supplement",
+  "title": "Supplement DiagnosticReportStatus",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für DiagnosticReportStatus",
+  "version": "0.1.0",
+  "url": "http://fhir.de/CodeSystem/diagnosticreportstatus-supplement",
+  "concept": [
+    {
+      "code": "registered",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Registriert"
+        }
+      ]
+    },
+    {
+      "code": "partial",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nicht vollständig"
+        }
+      ]
+    },
+    {
+      "code": "preliminary",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Vorläufig"
+        }
+      ]
+    },
+    {
+      "code": "final",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Abgeschlossen"
+        }
+      ]
+    },
+    {
+      "code": "amended",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Geändert"
+        }
+      ]
+    },
+    {
+      "code": "corrected",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Korrigiert"
+        }
+      ]
+    },
+    {
+      "code": "appended",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Angefügt"
+        }
+      ]
+    },
+    {
+      "code": "cancelled",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Storniert"
+        }
+      ]
+    },
+    {
+      "code": "entered-in-error",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Irrtürmliche Eingabe"
+        }
+      ]
+    },
+    {
+      "code": "unknown",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Unbekannt"
+        }
+      ]
+    }
+  ],
+  "date": "2022-02-09",
+  "experimental": true,
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "supplements": "http://hl7.org/fhir/diagnostic-report-status"
+}

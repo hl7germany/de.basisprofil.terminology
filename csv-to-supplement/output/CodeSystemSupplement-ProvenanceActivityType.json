@@ -1,0 +1,62 @@
+{
+    "id": "provenanceactivitytype-supplement",
+    "concept": [
+        {
+            "code": "CREATE",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Erstellen"
+                }
+            ]
+        },
+        {
+            "code": "DELETE",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Löschen"
+                }
+            ]
+        },
+        {
+            "code": "UPDATE",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Aktualisieren"
+                }
+            ]
+        },
+        {
+            "code": "APPEND",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Anhängen"
+                }
+            ]
+        },
+        {
+            "code": "NULLIFY",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Annullieren"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für ProvenanceActivityType",
+    "experimental": true,
+    "name": "SupplementProvenanceActivityType",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion",
+    "title": "Supplement ProvenanceActivityType",
+    "url": "http://fhir.de/CodeSystem/provenanceactivitytype-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

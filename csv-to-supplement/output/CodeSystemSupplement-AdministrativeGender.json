@@ -1,0 +1,53 @@
+{
+    "id": "administrativegender-supplement",
+    "concept": [
+        {
+            "code": "male",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Männlich"
+                }
+            ]
+        },
+        {
+            "code": "female",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Weiblich"
+                }
+            ]
+        },
+        {
+            "code": "other",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Andere"
+                }
+            ]
+        },
+        {
+            "code": "unkown",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Unbekannt"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für AdministrativeGender",
+    "experimental": true,
+    "name": "SupplementAdministrativeGender",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://hl7.org/fhir/administrative-gender",
+    "title": "Supplement AdministrativeGender",
+    "url": "http://fhir.de/CodeSystem/administrativegender-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

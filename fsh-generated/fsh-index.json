@@ -168,22 +168,6 @@
     "endLine": 9
   },
   {
-    "outputFile": "CodeSystem-codesystem-aerztliche-fachrichtungen-ihe-xds.json",
-    "fshName": "AerztlicheFachrichtungenIHEXDS",
-    "fshType": "CodeSystem",
-    "fshFile": "codesystems/AerztlicheFachrichtungenIHEXDS.fsh",
-    "startLine": 1,
-    "endLine": 256
-  },
-  {
-    "outputFile": "CodeSystem-codesystem-nicht-aerztliche-fachrichtungen-ihe-xds.json",
-    "fshName": "NichtAerztlicheFachrichtungenIHEXDS",
-    "fshType": "CodeSystem",
-    "fshFile": "codesystems/NichtAerztlicheFachrichtungenIHEXDS.fsh",
-    "startLine": 1,
-    "endLine": 61
-  },
-  {
     "outputFile": "CodeSystem-cs-common-meta-tag-de.json",
     "fshName": "CS_CommonMetaTag_De",
     "fshType": "CodeSystem",

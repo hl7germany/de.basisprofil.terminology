@@ -1,0 +1,738 @@
+[
+  {
+    "outputFile": "CodeSystem-Abrechnungsart.json",
+    "fshName": "Abrechnungsart",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/Abrechnungsart.fsh",
+    "startLine": 1,
+    "endLine": 40
+  },
+  {
+    "outputFile": "CodeSystem-Aufnahmeanlass.json",
+    "fshName": "CodeSystemAufnahmeanlass",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystemAufnahmeanlass.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "CodeSystem-AufnahmegrundDritteStelle.json",
+    "fshName": "AufnahmegrundDritteStelle",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/AufnahmegrundDritteStelle.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "CodeSystem-AufnahmegrundErsteUndZweiteStelle.json",
+    "fshName": "CodeSystemAufnahmegrundErsteUndZweiteStelle",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystemAufnahmegrundErsteUndZweiteStelle.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "CodeSystem-AufnahmegrundVierteStelle.json",
+    "fshName": "AufnahmegrundVierteStelle",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/AufnahmegrundVierteStelle.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "CodeSystem-CodeSystemISO31662DE.json",
+    "fshName": "CodeSystemISO31662DE",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystemISO31662DE.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "CodeSystem-EntlassungsgrundDritteStelle.json",
+    "fshName": "EntlassungsgrundDritteStelle",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/EntlassungsgrundDritteStelle.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "CodeSystem-EntlassungsgrundErsteUndZweiteStelle.json",
+    "fshName": "EntlassungsgrundErsteUndZweiteStelle",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/EntlassungsgrundErsteUndZweiteStelle.fsh",
+    "startLine": 1,
+    "endLine": 41
+  },
+  {
+    "outputFile": "CodeSystem-Fachabteilungsschluessel-erweitert.json",
+    "fshName": "CodeSystemFachabteilungsschluesselErweitert",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystemFachabteilungsschluesselErweitert.fsh",
+    "startLine": 1,
+    "endLine": 159
+  },
+  {
+    "outputFile": "CodeSystem-Fachabteilungsschluessel.json",
+    "fshName": "CodeSystemFachabteilungsschluessel",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystemFachabteilungsschluessel.fsh",
+    "startLine": 1,
+    "endLine": 51
+  },
+  {
+    "outputFile": "CodeSystem-KontaktArtDe.json",
+    "fshName": "KontaktArtDe",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/KontaktArtDe.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "CodeSystem-KontaktDiagnoseProzedur.json",
+    "fshName": "KontaktDiagnoseProzedur",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/KontaktDiagnoseProzedur.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "CodeSystem-Kontaktebene.json",
+    "fshName": "Kontaktebene",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/Kontaktebene.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "CodeSystem-WirkstofftypCS.json",
+    "fshName": "WirkstofftypCS",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystemWirkstofftyp.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "CodeSystem-administrative-gender-supplement.json",
+    "fshName": "SupplementAdministrativeGender",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/SupplementAdministrativeGender.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "CodeSystem-alpha-id.json",
+    "fshName": "AlphaId",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/AlphaId.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "CodeSystem-anlage-6-vorsatzworte.json",
+    "fshName": "DeuevAnlage6Vorsatzworte",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/DeuevAnlage6Vorsatzworte.fsh",
+    "startLine": 1,
+    "endLine": 199
+  },
+  {
+    "outputFile": "CodeSystem-anlage-7-namenszusaetze.json",
+    "fshName": "DeuevAnlage7Namenszusaetze",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/DeuevAnlage7Namenszusaetze.fsh",
+    "startLine": 1,
+    "endLine": 78
+  },
+  {
+    "outputFile": "CodeSystem-anlage-8-laenderkennzeichen.json",
+    "fshName": "DeuevAnlage8Laenderkennzeichen",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/DeuevAnlage8Laenderkennzeichen.fsh",
+    "startLine": 1,
+    "endLine": 321
+  },
+  {
+    "outputFile": "CodeSystem-ask.json",
+    "fshName": "Ask",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/Ask.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "CodeSystem-atc.json",
+    "fshName": "Atc",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/Atc.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "CodeSystem-codesystem-aerztliche-fachrichtungen-ihe-xds.json",
+    "fshName": "AerztlicheFachrichtungenIHEXDS",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/AerztlicheFachrichtungenIHEXDS.fsh",
+    "startLine": 1,
+    "endLine": 256
+  },
+  {
+    "outputFile": "CodeSystem-codesystem-nicht-aerztliche-fachrichtungen-ihe-xds.json",
+    "fshName": "NichtAerztlicheFachrichtungenIHEXDS",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/NichtAerztlicheFachrichtungenIHEXDS.fsh",
+    "startLine": 1,
+    "endLine": 61
+  },
+  {
+    "outputFile": "CodeSystem-cs-common-meta-tag-de.json",
+    "fshName": "CS_CommonMetaTag_De",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CS_CommonMetaTag_De.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "CodeSystem-cs-merkzeichen-de.json",
+    "fshName": "Merkzeichen",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/Merkzeichen.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
+    "outputFile": "CodeSystem-diagnosis-role-supplement.json",
+    "fshName": "DiagnosisRole",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/DiagnosisRole.fsh",
+    "startLine": 1,
+    "endLine": 29
+  },
+  {
+    "outputFile": "CodeSystem-gender-amtlich-de.json",
+    "fshName": "GenderAmtlichDE",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/GenderAmtlichDE.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "CodeSystem-icd-10-gm-mehrfachcodierungs-kennzeichen.json",
+    "fshName": "MehrfachkodierungsKennzeichen",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/MehrfachkodierungsKennzeichen.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "CodeSystem-icd-10-gm.json",
+    "fshName": "ICD10GM",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/ICD10GM.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "CodeSystem-identifier-type-de-basis.json",
+    "fshName": "IdentifierTypeDeBasis",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/IdentifierTypeDeBasis.fsh",
+    "startLine": 1,
+    "endLine": 29
+  },
+  {
+    "outputFile": "CodeSystem-identifier-type-v2-supplement.json",
+    "fshName": "SupplementIdentifierTypeV2",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/SupplementIdentifierTypeV2.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "CodeSystem-klassifikation.json",
+    "fshName": "ArgeIkKlassifikation",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/ArgeIkKlassifikation.fsh",
+    "startLine": 1,
+    "endLine": 62
+  },
+  {
+    "outputFile": "CodeSystem-marital-status-supplement.json",
+    "fshName": "SupplementMaritalStatus",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/SupplementMaritalStatus.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "CodeSystem-observation-category-supplement.json",
+    "fshName": "SupplementObservationCategory",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/SupplementObservationCategory.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "CodeSystem-ops.json",
+    "fshName": "OPS",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/OPS.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "CodeSystem-pzn.json",
+    "fshName": "Pzn",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/Pzn.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "CodeSystem-supplement-iso-3166.json",
+    "fshName": "CodeSystemSupplementISO3166",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystemSupplementISO3166.fsh",
+    "startLine": 1,
+    "endLine": 755
+  },
+  {
+    "outputFile": "CodeSystem-versicherungsart-de-basis.json",
+    "fshName": "VersicherungsartDeBasis",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/VersicherungsartDeBasis.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "CodeSystem-wahlleistungen-de.json",
+    "fshName": "CodeSystemWahlleistungen",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/CodeSystemWahlleistungen.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "CodeSystem-wg14.json",
+    "fshName": "WG14",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/WG14.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ConceptMap-ConceptMap-OPS-SNOMED-Category-Mapping.json",
+    "fshName": "ConceptMap-OPS-SNOMED-Category-Mapping",
+    "fshType": "Instance",
+    "fshFile": "conceptmaps/ConceptMap-OPS-SNOMED-Category-Mapping.fsh",
+    "startLine": 1,
+    "endLine": 41
+  },
+  {
+    "outputFile": "ValueSet-AbrechnungsDiagnoseProzedur.json",
+    "fshName": "AbrechnungsDiagnoseProzedur",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/AbrechnungsDiagnoseProzedur.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-AbrechnungsartVS.json",
+    "fshName": "AbrechnungsartVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/AbrechnungsartVS.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "ValueSet-ArgeIkKlassifikationVS.json",
+    "fshName": "ArgeIkKlassifikationVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/ArgeIkKlassifikationVS.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "ValueSet-AufnahmeanlassVS.json",
+    "fshName": "AufnahmeanlassVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/AufnahmeanlassVS.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "ValueSet-AufnahmegrundDritteStelleVS.json",
+    "fshName": "AufnahmegrundDritteStelleVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/AufnahmegrundDritteStelleVS.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "ValueSet-AufnahmegrundErsteUndZweiteStelleVS.json",
+    "fshName": "AufnahmegrundErsteUndZweiteStelleVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/AufnahmegrundErsteUndZweiteStelleVS.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "ValueSet-AufnahmegrundVierteStelleVS.json",
+    "fshName": "AufnahmegrundVierteStelleVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/AufnahmegrundVierteStelleVS.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "ValueSet-DiagnoseTyp.json",
+    "fshName": "DiagnoseTyp",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/DiagnoseTyp.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "ValueSet-Diagnosesubtyp.json",
+    "fshName": "Diagnosesubtyp",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/Diagnosesubtyp.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-EkgLeads.json",
+    "fshName": "EkgLeads",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/EkgLeads.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "ValueSet-EncounterClassDE.json",
+    "fshName": "EncounterClassDE",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/EncounterClassDE.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "ValueSet-EncounterStatusDe.json",
+    "fshName": "EncounterStatusDe",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/EncounterStatusDe.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "ValueSet-EntlassungsgrundDritteStelleVS.json",
+    "fshName": "EntlassungsgrundDritteStelleVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/EntlassungsgrundDritteStelleVS.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "ValueSet-EntlassungsgrundErsteUndZweiteStelleVS.json",
+    "fshName": "EntlassungsgrundErsteUndZweiteStelleVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/EntlassungsgrundErsteUndZweiteStelleVS.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "ValueSet-FachabteilungsschluesselErweitert.json",
+    "fshName": "ValueSetFachabteilungsschluesselErweitert",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/ValueSetFachabteilungsschluesselErweitert.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "ValueSet-FachabteilungsschluesselVS.json",
+    "fshName": "FachabteilungsschluesselVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/FachabteilungsschluesselVS.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "ValueSet-UcumVitalsCommonDE.json",
+    "fshName": "UCUM_Vitals_Common_DE",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/UCUM_Vitals_Common_DE_VS.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "ValueSet-ValueSet-GenderOtherDE.json",
+    "fshName": "GenderOtherDE",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/GenderOtherDE.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-ValueSet-OPS-SNOMED-Source-Codes.json",
+    "fshName": "ValueSet_OPS_SNOMED_Source_Codes",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/OPS-SNOMED-Source-CodesVS.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-ValueSetISO31662DE.json",
+    "fshName": "ValueSetISO31662DE",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/ValueSetISO31662DE.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "ValueSet-ValueSetVitalSignDE-Body-Height-Loinc.json",
+    "fshName": "ValueSetVitalSignDE_Body_Height_Loinc",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/ValueSetVitalSignDE_Body_Height_Loinc.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-VitalSignDE-Atemfrequenz-SNOMED-CT.json",
+    "fshName": "VitalSignDE_Atemfrequenz_SNOMED_CT",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-VitalSignDE-Body-Length-UCUM.json",
+    "fshName": "VitalSignDE_Body_Length_UCUM",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/VitalSignDE_Body_Length_UCUM.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-VitalSignDE-Body-Weight-Loinc.json",
+    "fshName": "VitalSignDE_Body_Weight_Loinc",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/VitalSignDE_Body_Weight_Loinc.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-VitalSignDE-Body-Weigth-UCUM.json",
+    "fshName": "VitalSignDE_Body_Weigth_UCUM",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/VitalSignDE_Body_Weigth_UCUM.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-VitalSignDE-Herzfrequenz-SNOMED-CT.json",
+    "fshName": "VitalSignDE_Herzfrequenz_SNOMED_CT",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
+    "startLine": 11,
+    "endLine": 20
+  },
+  {
+    "outputFile": "ValueSet-VitalSignDE-Koerpergewicht-SNOMED-CT.json",
+    "fshName": "VitalSignDE_Koerpergewicht_SNOMED_CT",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
+    "startLine": 22,
+    "endLine": 39
+  },
+  {
+    "outputFile": "ValueSet-VitalSignDE-Koerpergroesse-SNOMED-CT.json",
+    "fshName": "VitalSignDE_Koerpergroesse_SNOMED_CT",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
+    "startLine": 41,
+    "endLine": 51
+  },
+  {
+    "outputFile": "ValueSet-VitalSignDE-Koerpertemperatur-SNOMED-CT.json",
+    "fshName": "VitalSignDE_Koerpertemperatur_SNOMED_CT",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
+    "startLine": 53,
+    "endLine": 72
+  },
+  {
+    "outputFile": "ValueSet-VitalSignDE-Kopfumfang-SNOMED-CT.json",
+    "fshName": "VitalSignDE_Kopfumfang_SNOMED_CT",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/VitalSignDE_SnomedCT_ValueSets.fsh",
+    "startLine": 74,
+    "endLine": 82
+  },
+  {
+    "outputFile": "ValueSet-WirkstofftypVS.json",
+    "fshName": "WirkstofftypVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/ValueSetWirkstofftyp.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "ValueSet-common-meta-tag-de.json",
+    "fshName": "VS_CommonMetaTag_De",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/VS_CommonMetaTag_De.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-glasgow-coma-score-eye.json",
+    "fshName": "glasgow-coma-score-eye",
+    "fshType": "Instance",
+    "fshFile": "valuesets/ScoreDE_GCS.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "ValueSet-glasgow-coma-score-motor.json",
+    "fshName": "glasgow-coma-score-motor",
+    "fshType": "Instance",
+    "fshFile": "valuesets/ScoreDE_GCS.fsh",
+    "startLine": 55,
+    "endLine": 86
+  },
+  {
+    "outputFile": "ValueSet-glasgow-coma-score-verbal.json",
+    "fshName": "glasgow-coma-score-verbal",
+    "fshType": "Instance",
+    "fshFile": "valuesets/ScoreDE_GCS.fsh",
+    "startLine": 26,
+    "endLine": 53
+  },
+  {
+    "outputFile": "ValueSet-icd-10-gm-mehrfachcodierungs-kennzeichen.json",
+    "fshName": "MehrfachkodierungsKennzeichen",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/MehrfachkodierungsKennzeichen.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "ValueSet-identifier-type-de-basis.json",
+    "fshName": "IdentifierTypeDeBasis",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IdentifierTypeDeBasis.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-kontaktart-de.json",
+    "fshName": "KontaktartDe",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/KontaktartDe.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "ValueSet-kontaktebene-de.json",
+    "fshName": "KontaktebeneDe",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/KontaktebeneDe.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "ValueSet-lebensphase-de.json",
+    "fshName": "ValueSetLebensphaseDe",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/ValueSetLebensphaseDe.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-merkzeichen-de.json",
+    "fshName": "Merkzeichen",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/Merkzeichen.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "ValueSet-ops-vs.json",
+    "fshName": "OpsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/OpsVS.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-pflegegrad-de.json",
+    "fshName": "PflegegradDE",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/PflegegradDE.fsh",
+    "startLine": 1,
+    "endLine": 29
+  },
+  {
+    "outputFile": "ValueSet-valueset-ICD-10-GM.json",
+    "fshName": "ICD10GM",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/ICD10GM.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-valueset-VersicherungsartDeBasis.json",
+    "fshName": "VersicherungsartDeBasis",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/VersicherungsartDeBasis.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-valueset-alpha-id.json",
+    "fshName": "AlphaId",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/AlphaId.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-valueset-ask.json",
+    "fshName": "ASK",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/ASK.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-valueset-atc.json",
+    "fshName": "ATC",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/ATC.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-valueset-pzn.json",
+    "fshName": "PZN",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/PZN.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-valueset-wg14.json",
+    "fshName": "WG14",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/WG14.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-wahlleistungen-de.json",
+    "fshName": "Wahlleistungen",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/Wahlleistungen.fsh",
+    "startLine": 1,
+    "endLine": 7
+  }
+]

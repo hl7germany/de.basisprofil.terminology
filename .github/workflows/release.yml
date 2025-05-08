@@ -18,14 +18,14 @@ jobs:
         with:
           repository: 'hl7germany/hl7-de-package-feed'
           path: 'hl7-de-package-feed'
- #         token: ${{ secrets.Personal_Access_Token_Public_Repo }}
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN_PUBLIC_REPO }}
 
       - name: Checkout Update Package Registry Script
         uses: actions/checkout@v4
         with:
           repository: 'alexzautke/update-fhir-package-feed'
           path: 'update-fhir-package-feed'
-#          token: ${{ secrets.Personal_Access_Token_Public_Repo }}
+          #token: ${{ secrets.Personal_Access_Token_Public_Repo }}
 
       - name: Release-FHIR-Package-To-Registry (GitHub Actions)
         uses: alexzautke/fhir-package-registry-pipeline@v0.2.3
@@ -42,3 +42,4 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           cwd: 'hl7-de-package-feed/'
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN_PUBLIC_REPO }}

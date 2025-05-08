@@ -28,7 +28,7 @@ jobs:
 #          token: ${{ secrets.Personal_Access_Token_Public_Repo }}
 
       - name: Release-FHIR-Package-To-Registry (GitHub Actions)
-        uses: alexzautke/fhir-package-registry-pipeline@v0.2.2
+        uses: alexzautke/fhir-package-registry-pipeline@v0.2.3
         with:
           SIMPLIFIER_USERNAME: ${{ secrets.SIMPLIFIER_USERNAME }}
           SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}

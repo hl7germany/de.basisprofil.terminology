@@ -3,10 +3,7 @@ Id: observationreferencerangemeaningcodes-supplement
 Title: "Supplement ObservationReferenceRangeMeaningCodes"
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für ObservationReferenceRangeMeaningCodes"
 * ^content = #supplement
-* ^date = "2022-02-09"
-* ^experimental = true
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^status = #draft
+
 * ^supplements = "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
 * ^version = "0.1.0"
 * #type

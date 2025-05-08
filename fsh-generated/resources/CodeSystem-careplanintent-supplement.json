@@ -1,0 +1,63 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "supplement",
+  "name": "SupplementCarePlanIntent",
+  "id": "careplanintent-supplement",
+  "title": "Supplement CarePlanIntent",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für CarePlanIntent",
+  "url": "http://fhir.de/CodeSystem/careplanintent-supplement",
+  "concept": [
+    {
+      "code": "proposal",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Vorschlag"
+        }
+      ]
+    },
+    {
+      "code": "plan",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Plan"
+        }
+      ]
+    },
+    {
+      "code": "order",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Anordnung"
+        }
+      ]
+    },
+    {
+      "code": "option",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Option"
+        }
+      ]
+    }
+  ],
+  "experimental": true,
+  "date": "2025-05-08",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee Terminologie)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://hl7.de/technische-komitees/terminologien/"
+        }
+      ]
+    }
+  ],
+  "version": "0.0.1-alpha1",
+  "supplements": "http://hl7.org/fhir/request-intent"
+}

@@ -1,0 +1,99 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "supplement",
+  "name": "SupplementMedicationStatusCodes",
+  "id": "medication-status-codes-supplement",
+  "title": "Supplement Medication Status Codes",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für Medication Status Codes",
+  "url": "http://fhir.de/CodeSystem/medication-status-codes-supplement",
+  "concept": [
+    {
+      "code": "active",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Aktiv"
+        }
+      ]
+    },
+    {
+      "code": "completed",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Abgeschlossen"
+        }
+      ]
+    },
+    {
+      "code": "entered-in-error",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Irrtürmliche Eingabe"
+        }
+      ]
+    },
+    {
+      "code": "intended",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Beabsichtigt"
+        }
+      ]
+    },
+    {
+      "code": "stopped",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gestoppt"
+        }
+      ]
+    },
+    {
+      "code": "on-hold",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Suspendiert"
+        }
+      ]
+    },
+    {
+      "code": "unknown",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Unbekannt"
+        }
+      ]
+    },
+    {
+      "code": "not-taken",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nicht eingenommen"
+        }
+      ]
+    }
+  ],
+  "experimental": true,
+  "date": "2025-05-08",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee Terminologie)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://hl7.de/technische-komitees/terminologien/"
+        }
+      ]
+    }
+  ],
+  "version": "0.0.1-alpha1",
+  "supplements": "http://hl7.org/fhir/CodeSystem/medication-statement-status"
+}

@@ -1,0 +1,45 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "supplement",
+  "name": "SupplementNoProbsInfoUvIps",
+  "id": "noprobsinfouvips-supplement",
+  "title": "Supplement NoProbsInfoUvIps",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für NoProbsInfoUvIps",
+  "url": "http://fhir.de/CodeSystem/noprobsinfouvips-supplement",
+  "concept": [
+    {
+      "code": "no-problem-info",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Keine Informationen über aktuelle Probleme"
+        }
+      ]
+    },
+    {
+      "code": "no-known-problems",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Keine bekannten Probleme"
+        }
+      ]
+    }
+  ],
+  "experimental": true,
+  "date": "2025-05-08",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee Terminologie)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://hl7.de/technische-komitees/terminologien/"
+        }
+      ]
+    }
+  ],
+  "version": "0.0.1-alpha1",
+  "supplements": ""
+}

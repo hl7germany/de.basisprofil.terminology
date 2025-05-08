@@ -1,0 +1,90 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "supplement",
+  "name": "SupplementContactPointSystem",
+  "id": "contactpointsystem-supplement",
+  "title": "Supplement ContactPointSystem",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für ContactPointSystem",
+  "url": "http://fhir.de/CodeSystem/contactpointsystem-supplement",
+  "concept": [
+    {
+      "code": "other",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Sonstiges"
+        }
+      ]
+    },
+    {
+      "code": "sms",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "SMS"
+        }
+      ]
+    },
+    {
+      "code": "url",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "URL"
+        }
+      ]
+    },
+    {
+      "code": "pager",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pager"
+        }
+      ]
+    },
+    {
+      "code": "email",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "E-Mail"
+        }
+      ]
+    },
+    {
+      "code": "fax",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Fax"
+        }
+      ]
+    },
+    {
+      "code": "phone",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Telefon"
+        }
+      ]
+    }
+  ],
+  "experimental": true,
+  "date": "2025-05-08",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee Terminologie)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://hl7.de/technische-komitees/terminologien/"
+        }
+      ]
+    }
+  ],
+  "version": "0.0.1-alpha1",
+  "supplements": "http://hl7.org/fhir/contact-point-system"
+}

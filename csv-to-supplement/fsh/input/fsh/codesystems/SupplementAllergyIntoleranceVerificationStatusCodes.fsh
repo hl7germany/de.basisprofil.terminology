@@ -3,10 +3,7 @@ Id: allergyintoleranceverificationstatuscodes-supplement
 Title: "Supplement AllergyIntoleranceVerificationStatusCodes"
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für AllergyIntoleranceVerificationStatusCodes"
 * ^content = #supplement
-* ^date = "2022-02-09"
-* ^experimental = true
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^status = #draft
+
 * ^supplements = "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
 * ^version = "0.1.0"
 * #unconfirmed

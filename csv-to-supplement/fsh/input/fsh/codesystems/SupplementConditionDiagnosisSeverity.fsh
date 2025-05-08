@@ -3,10 +3,7 @@ Id: condition-diagnosisseverity-supplement
 Title: "Supplement Condition/DiagnosisSeverity"
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für Condition/DiagnosisSeverity"
 * ^content = #supplement
-* ^date = "2022-02-09"
-* ^experimental = true
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^status = #draft
+
 * ^supplements = "https://www.snomed.org/"
 * ^version = "0.1.0"
 * #255604002

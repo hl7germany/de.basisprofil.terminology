@@ -3,10 +3,7 @@ Id: fhirdevicestatusreason-supplement
 Title: "Supplement FHIRDeviceStatusReason"
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für FHIRDeviceStatusReason"
 * ^content = #supplement
-* ^date = "2022-02-09"
-* ^experimental = true
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^status = #draft
+
 * ^supplements = "http://terminology.hl7.org/CodeSystem/device-status-reason"
 * ^version = "0.1.0"
 * #online

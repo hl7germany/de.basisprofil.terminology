@@ -1,0 +1,45 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "supplement",
+  "name": "SupplementNoImmunizationInfoUvIps",
+  "id": "noimmunizationinfouvips-supplement",
+  "title": "Supplement NoImmunizationInfoUvIps",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für NoImmunizationInfoUvIps",
+  "url": "http://fhir.de/CodeSystem/noimmunizationinfouvips-supplement",
+  "concept": [
+    {
+      "code": "no-immunization-info",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Keine Informationen über Impfungen"
+        }
+      ]
+    },
+    {
+      "code": "no-known-immunizations",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Keine Immunität bekannt"
+        }
+      ]
+    }
+  ],
+  "experimental": true,
+  "date": "2025-05-08",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee Terminologie)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://hl7.de/technische-komitees/terminologien/"
+        }
+      ]
+    }
+  ],
+  "version": "0.0.1-alpha1",
+  "supplements": ""
+}

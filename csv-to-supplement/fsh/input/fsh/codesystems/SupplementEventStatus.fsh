@@ -3,10 +3,7 @@ Id: eventstatus-supplement
 Title: "Supplement EventStatus"
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für EventStatus"
 * ^content = #supplement
-* ^date = "2022-02-09"
-* ^experimental = true
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^status = #draft
+
 * ^supplements = "http://hl7.org/fhir/event-status"
 * ^version = "0.1.0"
 * #preparation

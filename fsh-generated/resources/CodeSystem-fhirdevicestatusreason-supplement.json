@@ -1,0 +1,99 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "supplement",
+  "name": "SupplementFHIRDeviceStatusReason",
+  "id": "fhirdevicestatusreason-supplement",
+  "title": "Supplement FHIRDeviceStatusReason",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für FHIRDeviceStatusReason",
+  "url": "http://fhir.de/CodeSystem/fhirdevicestatusreason-supplement",
+  "concept": [
+    {
+      "code": "online",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Online"
+        }
+      ]
+    },
+    {
+      "code": "paused",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Pausiert"
+        }
+      ]
+    },
+    {
+      "code": "standby",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Stand-by"
+        }
+      ]
+    },
+    {
+      "code": "offline",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Offline"
+        }
+      ]
+    },
+    {
+      "code": "not-ready",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nicht bereit"
+        }
+      ]
+    },
+    {
+      "code": "transduc-discon",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Signalgeber nicht verbunden"
+        }
+      ]
+    },
+    {
+      "code": "hw-discon",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Hardware nicht verbunden"
+        }
+      ]
+    },
+    {
+      "code": "off",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Aus"
+        }
+      ]
+    }
+  ],
+  "experimental": true,
+  "date": "2025-05-08",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee Terminologie)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://hl7.de/technische-komitees/terminologien/"
+        }
+      ]
+    }
+  ],
+  "version": "0.0.1-alpha1",
+  "supplements": "http://terminology.hl7.org/CodeSystem/device-status-reason"
+}

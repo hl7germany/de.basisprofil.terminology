@@ -3,10 +3,7 @@ Id: noproceduresinfouvips-supplement
 Title: "Supplement NoProceduresInfoUvIps"
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für NoProceduresInfoUvIps"
 * ^content = #supplement
-* ^date = "2022-02-09"
-* ^experimental = true
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^status = #draft
+
 * ^supplements = ""
 * ^version = "0.1.0"
 * #no-procedure-info

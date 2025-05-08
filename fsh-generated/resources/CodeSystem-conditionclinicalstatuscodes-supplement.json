@@ -1,0 +1,81 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "supplement",
+  "name": "SupplementConditionClinicalStatusCodes",
+  "id": "conditionclinicalstatuscodes-supplement",
+  "title": "Supplement ConditionClinicalStatusCodes",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für ConditionClinicalStatusCodes",
+  "url": "http://fhir.de/CodeSystem/conditionclinicalstatuscodes-supplement",
+  "concept": [
+    {
+      "code": "active",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Aktiv"
+        }
+      ]
+    },
+    {
+      "code": "recurrence",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Wiederauftreten"
+        }
+      ]
+    },
+    {
+      "code": "relapse",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Rezidiv"
+        }
+      ]
+    },
+    {
+      "code": "inactive",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Inaktiv"
+        }
+      ]
+    },
+    {
+      "code": "remission",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Remission"
+        }
+      ]
+    },
+    {
+      "code": "resolved",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Behoben"
+        }
+      ]
+    }
+  ],
+  "experimental": true,
+  "date": "2025-05-08",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee Terminologie)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://hl7.de/technische-komitees/terminologien/"
+        }
+      ]
+    }
+  ],
+  "version": "0.0.1-alpha1",
+  "supplements": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+}

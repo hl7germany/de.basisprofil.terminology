@@ -3,10 +3,7 @@ Id: v3.observationinterpretation-supplement
 Title: "Supplement v3.ObservationInterpretation"
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für v3.ObservationInterpretation"
 * ^content = #supplement
-* ^date = "2022-02-09"
-* ^experimental = true
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^status = #draft
+
 * ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
 * ^version = "0.1.0"
 * #_GeneticObservationInterpretation

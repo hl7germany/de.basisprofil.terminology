@@ -1,0 +1,45 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "supplement",
+  "name": "SupplementNoMedsInfoUvIps",
+  "id": "nomedsinfouvips-supplement",
+  "title": "Supplement NoMedsInfoUvIps",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für NoMedsInfoUvIps",
+  "url": "http://fhir.de/CodeSystem/nomedsinfouvips-supplement",
+  "concept": [
+    {
+      "code": "no-medication-info",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Keine Informationen über Medikamente"
+        }
+      ]
+    },
+    {
+      "code": "no-known-medications",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Keine bekannten Medikamente"
+        }
+      ]
+    }
+  ],
+  "experimental": true,
+  "date": "2025-05-08",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee Terminologie)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://hl7.de/technische-komitees/terminologien/"
+        }
+      ]
+    }
+  ],
+  "version": "0.0.1-alpha1",
+  "supplements": ""
+}

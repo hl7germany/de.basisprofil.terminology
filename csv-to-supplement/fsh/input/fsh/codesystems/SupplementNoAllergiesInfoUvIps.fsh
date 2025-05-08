@@ -3,10 +3,7 @@ Id: noallergiesinfouvips-supplement
 Title: "Supplement NoAllergiesInfoUvIps"
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für NoAllergiesInfoUvIps"
 * ^content = #supplement
-* ^date = "2022-02-09"
-* ^experimental = true
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^status = #draft
+
 * ^supplements = "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
 * ^version = "0.1.0"
 * #no-allergy-info

@@ -1,0 +1,99 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "supplement",
+  "name": "SupplementEventStatus",
+  "id": "eventstatus-supplement",
+  "title": "Supplement EventStatus",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für EventStatus",
+  "url": "http://fhir.de/CodeSystem/eventstatus-supplement",
+  "concept": [
+    {
+      "code": "preparation",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "In Vorbereitung"
+        }
+      ]
+    },
+    {
+      "code": "in-progress",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Im Gange"
+        }
+      ]
+    },
+    {
+      "code": "not-done",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nicht durchgeführt"
+        }
+      ]
+    },
+    {
+      "code": "on-hold",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Suspendiert"
+        }
+      ]
+    },
+    {
+      "code": "stopped",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Gestoppt"
+        }
+      ]
+    },
+    {
+      "code": "completed",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Erledigt"
+        }
+      ]
+    },
+    {
+      "code": "entered-in-error",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Irrtümliche Eingabe"
+        }
+      ]
+    },
+    {
+      "code": "unknown",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Unbekannt"
+        }
+      ]
+    }
+  ],
+  "experimental": true,
+  "date": "2025-05-08",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee Terminologie)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://hl7.de/technische-komitees/terminologien/"
+        }
+      ]
+    }
+  ],
+  "version": "0.0.1-alpha1",
+  "supplements": "http://hl7.org/fhir/event-status"
+}

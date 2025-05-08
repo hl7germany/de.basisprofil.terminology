@@ -1,0 +1,90 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "supplement",
+  "name": "SupplementRequestStatus",
+  "id": "requeststatus-supplement",
+  "title": "Supplement RequestStatus",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für RequestStatus",
+  "url": "http://fhir.de/CodeSystem/requeststatus-supplement",
+  "concept": [
+    {
+      "code": "draft",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Entwurf"
+        }
+      ]
+    },
+    {
+      "code": "active",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Aktiv"
+        }
+      ]
+    },
+    {
+      "code": "on-hold",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Suspendiert"
+        }
+      ]
+    },
+    {
+      "code": "revoked",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Widerrufen"
+        }
+      ]
+    },
+    {
+      "code": "completed",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Erledigt"
+        }
+      ]
+    },
+    {
+      "code": "entered-in-error",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Irrtürmliche Eingabe"
+        }
+      ]
+    },
+    {
+      "code": "unknown",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Unbekannt"
+        }
+      ]
+    }
+  ],
+  "experimental": true,
+  "date": "2025-05-08",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee Terminologie)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://hl7.de/technische-komitees/terminologien/"
+        }
+      ]
+    }
+  ],
+  "version": "0.0.1-alpha1",
+  "supplements": "http://hl7.org/fhir/request-status"
+}

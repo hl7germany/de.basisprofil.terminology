@@ -15,7 +15,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Nicht vollständig"
+                    "value": "Unvollständig"
                 }
             ]
         },
@@ -33,7 +33,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Abgeschlossen"
+                    "value": "Endgültig"
                 }
             ]
         },
@@ -42,7 +42,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Geändert"
+                    "value": "Überarbeitet"
                 }
             ]
         },
@@ -60,7 +60,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Angefügt"
+                    "value": "Ergänzt"
                 }
             ]
         },
@@ -69,7 +69,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Storniert"
+                    "value": "Abgebrochen"
                 }
             ]
         },
@@ -78,7 +78,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Irrtürmliche Eingabe"
+                    "value": "Fehleingabe"
                 }
             ]
         },

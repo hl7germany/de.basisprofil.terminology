@@ -11,6 +11,15 @@
             ]
         },
         {
+            "code": "presumed",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Vermutet"
+                }
+            ]
+        },
+        {
             "code": "confirmed",
             "designation": [
                 {
@@ -24,7 +33,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Widerlegt"
+                    "value": "Ausgeschlossen"
                 }
             ]
         },
@@ -33,7 +42,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Versehentlich eingegeben"
+                    "value": "Irrtümliche Eingabe"
                 }
             ]
         }

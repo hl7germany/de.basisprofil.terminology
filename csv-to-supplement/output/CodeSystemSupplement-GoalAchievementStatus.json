@@ -6,7 +6,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Im Gang"
+                    "value": "In Arbeit"
                 }
             ]
         },
@@ -33,7 +33,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Kein Änderung"
+                    "value": "Keine Änderung"
                 }
             ]
         },
@@ -51,7 +51,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Unterstützend"
+                    "value": "Aufrechterhaltend"
                 }
             ]
         },

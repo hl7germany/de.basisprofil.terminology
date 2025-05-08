@@ -1,224 +1,226 @@
-﻿Name;Valuset URL;Codesystem URL;Code;Display;vorläufige Übersetzung
-AdministrativeGender;http://hl7.org/fhir/ValueSet/administrative-gender;http://hl7.org/fhir/administrative-gender;male;Male;Männlich
-;;;female;Female;Weiblich
-;;;other;Other;Andere
-;;;unkown;Unkown;Unbekannt
-AllergyIntoleranceCategory;http://hl7.org/fhir/ValueSet/allergy-intolerance-category;http://hl7.org/fhir/allergy-intolerance-category;food;Food;Lebensmittel
-;;;medication;Medication;Arzneimittel
-;;;environment;Environment;Umwelt/Chemikalie
-;;;biologic;Biologic;Biologisch synthetisierte Substanz
-AllergyIntoleranceClinicalStatusCodes;http://hl7.org/fhir/ValueSet/allergyintolerance-clinical;http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical;active;Active;Aktiv
-;;;inactive;Inactive;Inaktiv
-;;;resolved;Resolved;Behoben
-AllergyIntoleranceCriticality;http://hl7.org/fhir/ValueSet/allergy-intolerance-criticality;http://hl7.org/fhir/allergy-intolerance-criticality;low;Low Risk;Niedriges Risiko
-;;;high;High Risk;Hohes Risiko
-;;;unable-to-assess;Unable to Assess Risk;Ausnahme: Risiko nicht einzuschätzen 
-AllergyIntoleranceType;http://hl7.org/fhir/ValueSet/allergy-intolerance-type;http://hl7.org/fhir/allergy-intolerance-type;allergy;Allergy;Allergie
-;;;intolerance;Intolerance;Unverträglichkeit
-AllergyIntoleranceVerificationStatusCodes;http://hl7.org/fhir/ValueSet/allergyintolerance-verification;http://terminology.hl7.org/CodeSystem/allergyintolerance-verification;unconfirmed;Unconfirmed;Unbestätigt
-;;;confirmed;Confirmed;Bestätigt
-;;;refuted;Refuted;Widerlegt
-;;;entered-in-error;Entered in Error;Versehentlich eingegeben 
-CarePlanIntent;http://hl7.org/fhir/ValueSet/care-plan-intent;http://hl7.org/fhir/request-intent;proposal;Proposal;Vorschlag
-;;;plan;Plan;Plan
-;;;order;Order;Anordnung
-;;;option;Option;Option
-ConditionClinicalStatusCodes;http://hl7.org/fhir/ValueSet/condition-clinical;http://terminology.hl7.org/CodeSystem/condition-clinical;active;Active;Aktiv
-;;;recurrence;Recurrence;Wiederauftreten
-;;;relapse;Relapse;Rezidiv
-;;;inactive;Inactive;Inaktiv
-;;;remission;Remission;Remission
-;;;resolved;Resolved;Behoben
-Condition/DiagnosisSeverity;http://hl7.org/fhir/ValueSet/condition-severity;https://www.snomed.org/;255604002;Mild (qualifier value);Leicht
-;;;6736007;Moderate (severity modifier) (qualifier value);Mittelschwer
-;;;24484000;Severe (severity modifier) (qualifier value);Schwer
-ContactPointSystem;http://hl7.org/fhir/ValueSet/contact-point-system;http://hl7.org/fhir/contact-point-system;other;Other;Sonstiges
-;;;sms;SMS;SMS
-;;;url;URL;URL
-;;;pager;Pager;Pager
-;;;email;Email;E-Mail
-;;;fax;Fax;Fax
-;;;phone;Phone;Telefon
-DeviceNameType;http://hl7.org/fhir/ValueSet/device-nametype;http://hl7.org/fhir/device-nametype;udi-label-name;UDI Label name;UDI Kennzeichnungsname 
-;;;user-friendly-name;User Friendly name;Benutzerfreundlicher Name 
-;;;patient-reported-name;Patient Reported nam;Patientenberichteter Name 
-;;;manufacturer-name;Manufacturer name;Herstellername 
-;;;model-name;Model name;Modellname 
-;;;other;other;Sonstige
-DiagnosticReportStatus;http://hl7.org/fhir/ValueSet/diagnostic-report-status;http://hl7.org/fhir/diagnostic-report-status;registered;Registered;Registriert
-;;;partial;Partial;Nicht vollständig
-;;;preliminary;Preliminary;Vorläufig
-;;;final;Final;Abgeschlossen
-;;;amended;Amended;Geändert
-;;;corrected;Corrected;Korrigiert
-;;;appended;Appended;Angefügt
-;;;cancelled;Cancelled;Storniert
-;;;entered-in-error;Entered in Error;Irrtürmliche Eingabe
-;;;unknown;Unknown;Unbekannt
-EventStatus;http://hl7.org/fhir/ValueSet/event-status;http://hl7.org/fhir/event-status;preparation;Preparation;In Vorbereitung
-;;;in-progress;In Progress;Im Gange 
-;;;not-done;Not Done;Nicht durchgeführt 
-;;;on-hold;On Hold;Suspendiert 
-;;;stopped;Stopped;Gestoppt 
-;;;completed;Completed;Erledigt
-;;;entered-in-error;Entered in Error;Irrtümliche Eingabe 
-;;;unknown;Unknown;Unbekannt
-EventTiming;;http://hl7.org/fhir/event-timing;MORN;Morning;Morgens
-;;;MORN.early;Early Morning;Früher Morgen
-;;;MORN.late;Late Morning;Später Vormittag
-;;;NOON;Noon;Mittags
-;;;AFT;Afternoon;Nachmittag
-;;;AFT.early;Early Afternoon;Früher Nachmittag
-;;;AFT.late;Late Afternoon;Später Nachmittag
-;;;EVE;Evening;Abends
-;;;EVE.early;Early Evening;Früher Abend
-;;;EVE.late;Late Evening;Später Abend
-;;;NIGHT;Night;Nachts
-;;;PHS;After Sleep;Nach dem Schlaf
-FHIRDeviceStatusReason;http://terminology.hl7.org/ValueSet/device-status-reason;http://terminology.hl7.org/CodeSystem/device-status-reason;online;Online;Online
-;;;paused;Paused;Pausiert
-;;;standby;Standby;Stand-by
-;;;offline;Offline;Offline
-;;;not-ready;Not Ready;Nicht bereit
-;;;transduc-discon;Transduc disconnected;Signalgeber nicht verbunden
-;;;hw-discon;Hardware Disconnected;Hardware nicht verbunden
-;;;off;Off;Aus
-GoalAchievementStatus;http://hl7.org/fhir/ValueSet/goal-achievement;http://terminology.hl7.org/CodeSystem/goal-achievement;in-progress;In Progress;Im Gang
-;;;improving;Improving;Sich bessernd
-;;;worsening;Worsening;Sich verschlechternd
-;;;no-change;No Change;Kein Änderung
-;;;achieved;Achieved;Erreicht
-;;;sustaining;Sustaining;Unterstützend
-;;;not-achieved;Not Achieved;Nicht erreicht
-;;;no-progress;No Progress;Kein Fortschritt
-;;;not-attainable;Not Attainable;Nicht erreichbar
-GoalLifecycleStatus;http://hl7.org/fhir/ValueSet/goal-status;http://hl7.org/fhir/goal-status;proposed;Proposed;Vorgeschlagen
-;;;planned;Planned;Geplant
-;;;accepted;Accepted;Angenommen
-;;;active;Active;Aktiv
-;;;on-hold;On hold;Suspendiert
-;;;completed;Completed;Abgeschlossen
-;;;cancelled;Cancelled;Storniert
-;;;entered-in-error;Entered in Error;Irrtürmliche Eingabe
-;;;rejected;Rejected;Abgelehnt
-GoalPriority;http://hl7.org/fhir/ValueSet/goal-priority;http://terminology.hl7.org/CodeSystem/goal-priority;high-priority;High Priority;Hohe Priorität
-;;;medium-priority;Medium Priority;Mittlere Priorität
-;;;low-priority;Low Priority;Niedrige Priorität
-Medication Status Codes;http://hl7.org/fhir/ValueSet/medication-statement-status;http://hl7.org/fhir/CodeSystem/medication-statement-status;active;Active;Aktiv
-;;;completed;Completed;Abgeschlossen
-;;;entered-in-error;Entered in Error;Irrtürmliche Eingabe
-;;;intended;Intended;Beabsichtigt
-;;;stopped;Stopped;Gestoppt
-;;;on-hold;On Hold;Suspendiert
-;;;unknown;Unknown;Unbekannt
-;;;not-taken;Not Taken;Nicht eingenommen
-NoAllergiesInfoUvIps;http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-allergies-uv-ips;http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips;no-allergy-info;No information about allergies;Keine Information über Allergien (vorliegend)
-;;;no-known-allergies;No known allergies;Keine bekannten Allergien
-;;;no-known-medication-allergies;No known medication allergies;Keine bekannten Arzneimittelallergien
-;;;no-known-environmental-allergies;No known environmental allergies;Keine bekannten umweltbedingten Allergien
-;;;no-known-food-allergies;No known food allergies;Keine bekannten Lebensmittelallergien
-NoDevicesInfoUvIps;http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-devices-uv-ips;;no-device-info;No information about device;Keine Informationen über das Gerät
-;;;no-known-devices;No known devices in use;Keine bekannten Geräte
-NoImmunizationInfoUvIps;http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-immunizations-uv-ips;;no-immunization-info;No information about immunizations;Keine Informationen über Impfungen
-;;;no-known-immunizations;No known immunizations;Keine Immunität bekannt
-NoMedsInfoUvIps;http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-medications-uv-ips;;no-medication-info;No information about medications;Keine Informationen über Medikamente
-;;;no-known-medications;No known medications;Keine bekannten Medikamente
-NoProbsInfoUvIps;http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips;;no-problem-info;No information about current problems;Keine Informationen über aktuelle Probleme
-;;;no-known-problems;No known problems;Keine bekannten Probleme
-NoProceduresInfoUvIps;http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-procedures-uv-ips;;no-procedure-info;No information about past history of procedures;Keine Informationen über vorangegangene Prozeduren
-;;;no-known-procedures;No known procedures;Keine bekannten Prozeduren
-ObservationReferenceRangeMeaningCodes;http://hl7.org/fhir/ValueSet/referencerange-meaning;http://terminology.hl7.org/CodeSystem/referencerange-meaning;type;Type;Generell
-;;;normal;Normal Range;Referenzbereich
-;;;recommended;Recommended Range;Entscheidungsgrenze, Bewertungsgrenze
-;;;treatment;Treatment Range;Therapeutischer Bereich
-;;;therapeutic;Therapeutic Desired Level;Therapeutischer Zielbereich
-;;;pre;Pre Therapeutic Desired Level; Prätherapeutischer Zielbereich
-;;;post;Post Therapeutic Desired Level;Posttherapeutischer Zielbereich 
-;;;endocrine;Endocrine;Endokrinologisch adaptiert 
-;;;pre-puberty;Pre-Puberty;Erwartungsbereich präpubertär 
-;;;follicular;Follicular Stage;Erwartungsbereich im follikulären Stadium 
-;;;midcycle;MidCycle;Erwartungsbereich in der Zyklusmitte 
-;;;luteal;Luteal;Erwartungsbereich in der lutealen Phase 
-;;;postmenopausal;Post-Menopause;Erwartungsbereich postmenopausal 
-ProvenanceActivityType;http://hl7.org/fhir/ValueSet/provenance-activity-type;http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion;CREATE;create;Erstellen
-;;;DELETE;delete;Löschen
-;;;UPDATE;revise;Aktualisieren
-;;;APPEND;append;Anhängen
-;;;NULLIFY;nullify;Annullieren
-QuestionnaireItemType;http://hl7.org/fhir/ValueSet/item-type;http://hl7.org/fhir/item-type;group;Group;Gruppe
-;;;display;Display;Anzeige
-;;;question;Question;Frage
-;;;boolean;Boolean;Boolscher Wert
-;;;decimal;Decimal;Dezimalzahl
-;;;integer;Integer;Ganzzahl
-;;;date;Date;Datum
-;;;dateTime;Date Time;Datum/Zeit
-;;;time;Time;Uhrzeit
-;;;string;String;Freitext
-;;;text;Text;Text
-;;;url;Url;URL
-;;;choice;Choice;Wahl
-;;;open-choice;Open Choice;Freie Wahl
-;;;quantity;Quantity;Wert
-RequestPriority;http://hl7.org/fhir/ValueSet/request-priority;http://hl7.org/fhir/request-priority;routine;Routine;Routine
-;;;urgent;Urgent;Dringend
-;;;asap;ASAP;Baldmöglichst
-;;;stat;STAT;Sofort/Notfall
-RequestStatus;http://hl7.org/fhir/ValueSet/request-status;http://hl7.org/fhir/request-status;draft;Draft;Entwurf
-;;;active;Active;Aktiv
-;;;on-hold;On Hold;Suspendiert
-;;;revoked;Revoked;Widerrufen
-;;;completed;Completed;Erledigt
-;;;entered-in-error;Entered in Error;Irrtürmliche Eingabe
-;;;unknown;Unknown;Unbekannt
-UCUMCodes;http://hl7.org/fhir/ValueSet/ucum-units;http://unitsofmeasure.org;/h;per hour;pro Stunde
-;;;/d;per day;pro Tag
-;;;/wk;per week;pro Woche
-;;;/mo;per month;pro Monat
-v3.ObservationInterpretation;http://terminology.hl7.org/ValueSet/v3-ObservationInterpretation;http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation;_GeneticObservationInterpretation;GeneticObservationInterpretation;Interpretation der genetischen Analyse 
-;;;CAR;Carrier;Anlageträger 
-;;;_ObservationInterpretationChange;ObservationInterpretationChange;Änderungsverlauf 
-;;;B;Better;Besser 
-;;;D;Significant change down;Signifikanter Anstieg 
-;;;U;Significant change up;Signifikanter Rückgang 
-;;;W;Worse;Schlechter 
-;;;_ObservationInterpretationExceptions;ObservationInterpretationExceptions;Ausnahmewertinterpretation 
-;;;kleinerals;Off scale low;Unterhalb der analytischen Grenze 
-;;;größerals;Off scale high;Oberhalb der analytischen Grenze 
-;;;IE;Insufficient evidence;Evidenz unzureichend 
-;;;_ObservationInterpretationNormality;ObservationInterpretationNormality;Normalitätsinterpretation 
-;;;A;Abnormal;Abnormal 
-;;;AA;Critical abnormal;Kritisch abnormal 
-;;;HH;Critical high;Kritisch erhöht 
-;;;LL;Critical low;Kritisch erniedrigt 
-;;;H;High;Erhöht 
-;;;HU;Significantly high;Signifikant erhöht 
-;;;L;Low;Erniedrigt 
-;;;LU;Significantly low;Signifikant erniedrigt 
-;;;N;Normal;Normal 
-;;;_ObservationInterpretationSusceptibility;ObservationInterpretationSusceptibility;Interpretation antimikrobieller Empfindlichkeit
-;;;I;Intermediate;mittlere Empfindlichkeit
-;;;NCL;No CLSI defined breakpoint;Kein CLSI definierter Schwellenwert für Empfindlichkeit verfügbar
-;;;NS;Non-susceptible;Nicht empfindlich
-;;;R;Resistant;Resistent
-;;;SYN-R;Synergy - resistant;Resistent gegenüber Substanzkombination
-;;;S;Susceptible;Empfindlich
-;;;SDD;Susceptible-dose dependent;Dosis-/Konzentrationsabhängige Empfindlichkeit
-;;;SYN-S;Synergy - susceptible;Empfindlich gegenüber Substanzkombination
-;;;EX;outside threshold;Interpretation außerhalb des Grenzwertes 
-;;;HX;above high threshold;Oberhalb des oberen Grenzwerts 
-;;;LX;below low threshold;Unterhalb des unteren Grenzwerts 
-;;;ObservationInterpretationDetection;ObservationInterpretationDetection;Feststellungsinterpretation 
-;;;IND;Indeterminate;Unbestimmbar 
-;;;E;Equivocal;Uneindeutig 
-;;;NEG;Negative;Negativ
-;;;ND;Not detected;Nicht nachgewiesen 
-;;;POS;Positive;Positiv 
-;;;DET;Detected;Nachgewiesen 
-;;;ObservationInterpretationExpectation;ObservationInterpretationExpectation;Erwartungsinterpretation
-;;;EXP;Expected;Erwartet 
-;;;UNE;Unexpected;Unerwartet 
-;;;ReactivityObservationInterpretation;ReactivityObservationInterpretation;Reaktivitätsinterpretation
-;;;NR;Non-reactive;Nicht reaktiv 
-;;;RR;Reactive;Reaktiv 
-;;;WR;Weakly reactive;Schwach reaktiv 
+﻿Name;Codesystem URL;Code;Display;vorläufige Übersetzung;Änderungsvorschlag MIO;Begründung;;;;;;;;;;;;;;;;;;
+AdministrativeGender;http://hl7.org/fhir/administrative-gender;male;Male;Männlich;;;;;;;;;;;;;;;;;;;;
+;;female;Female;Weiblich;;;;;;;;;;;;;;;;;;;;
+;;other;Other;Andere;;https://www.antidiskriminierungsstelle.de/DE/ueber-diskriminierung/diskriminierungsmerkmale/geschlecht-und-geschlechtsidentitaet/dritte-option/dritte-option-node.html;;;;;;;;;;;;;;;;;;
+;;unkown;Unkown;Unbekannt;;;;;;;;;;;;;;;;;;;;
+AllergyIntoleranceCategory;http://hl7.org/fhir/allergy-intolerance-category;food;Food;Nahrungsmittel;;"Bei z.B. ""Nahrunsmittel-Allergie"" oder ""Nahrungsmittel-Unverträglichkeit"" der geläufigere Name.";;;;;;;;;;;;;;;;;;
+;;medication;Medication;Arzneimittel;;;;;;;;;;;;;;;;;;;;
+;;environment;Environment;Umwelt;;;;;;;;;;;;;;;;;;;;
+;;biologic;Biologic;Biologische Substanz;;;;;;;;;;;;;;;;;;;;
+AllergyIntoleranceClinicalStatusCodes;http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical;active;Active;Aktiv;;;;;;;;;;;;;;;;;;;;
+;;inactive;Inactive;Inaktiv;;;;;;;;;;;;;;;;;;;;
+;;resolved;Resolved;Nicht mehr nachweisbar;;"""Resolve"" lässt sich wortwörtlich zwar mit ""behoben"" oder ""gelöst"" übersetzen, allerdings ist dies im kontext der Allergie kein klinisch sinnvoller Code. Nach der Beschreibung des Codes bei HL7 ( https://hl7.org/fhir/valueset-allergyintolerance-clinical.html) würde eine Übersetzung mit ""nich mehr nachweisbar"" mehr Sinn ergeben.";;;;;;;;;;;;;;;;;;
+AllergyIntoleranceCriticality;http://hl7.org/fhir/allergy-intolerance-criticality;low;Low Risk;Niedriges Risiko;;;;;;;;;;;;;;;;;;;;
+;;high;High Risk;Hohes Risiko;;;;;;;;;;;;;;;;;;;;
+;;unable-to-assess;Unable to Assess Risk;Risiko nicht einzuschätzen;;;;;;;;;;;;;;;;;;;;
+AllergyIntoleranceType;http://hl7.org/fhir/allergy-intolerance-type;allergy;Allergy;Allergie;;;;;;;;;;;;;;;;;;;;
+;;intolerance;Intolerance;Unverträglichkeit;;;;;;;;;;;;;;;;;;;;
+AllergyIntoleranceVerificationStatusCodes;http://terminology.hl7.org/CodeSystem/allergyintolerance-verification;unconfirmed;Unconfirmed;Unbestätigt;;;;;;;;;;;;;;;;;;;;
+;;presumed;Presumed;Vermutet;;;;;;;;;;;;;;;;;;;;
+;;confirmed;Confirmed;Bestätigt;;;;;;;;;;;;;;;;;;;;
+;;refuted;Refuted;Ausgeschlossen;;;;;;;;;;;;;;;;;;;;
+;;entered-in-error;Entered in Error;Irrtümliche Eingabe;;;;;;;;;;;;;;;;;;;;
+CarePlanIntent;http://hl7.org/fhir/request-intent;proposal;Proposal;Vorschlag;;;;;;;;;;;;;;;;;;;;
+;;plan;Plan;Plan;;;;;;;;;;;;;;;;;;;;
+;;directive;Directive;Richtlinie;;;;;;;;;;;;;;;;;;;;
+;;order;Order;Auftrag;;;;;;;;;;;;;;;;;;;;
+;;original-order;Original Order;Ursprünglicher Auftrag;;;;;;;;;;;;;;;;;;;;
+;;reflex-order;Reflex Order;Auftrag als Reaktion auf erste Ergebnisse ;;;;;;;;;;;;;;;;;;;;
+;;filler-order;Filler Order;Auftrag des Leistungserbringers;;;;;;;;;;;;;;;;;;;;
+;;instance-order;Instance Order;Unterauftrag;;;;;;;;;;;;;;;;;;;;
+;;option;Option;Option;;;;;;;;;;;;;;;;;;;;
+ConditionClinicalStatusCodes;http://terminology.hl7.org/CodeSystem/condition-clinical;active;Active;Aktiv;;;;;;;;;;;;;;;;;;;;
+;;recurrence;Recurrence;Wiederholtes Auftreten;;"Hier würden wir uns eine klarere Abgrenzung der Übersetzungen von ""relapse"" und ""recurrence"" wünschen; ""Rezidiv"" und ""Wiederauftreten"" haben im klinischen Alltag eine sehr ähnliche Bedeutung. Der Beschreibung der Codes von HL7 mein ""relapse"" eher das wiederholte, ggf. mehrfache Auftreten eines in sich abgeschlossene Episode (z.B. wiederkehrende Harnwegsinfektionen, jedoch unterschiedliche Episoden mit unterschiedlichen auslösenden Keimen), während ""relapse"" das (ggf. auch nur einmalige) wieder aufflammen derselben Erkrankung (z.B. Rezidiv einer bereits zuvor bekannten Krebserkrankung) widerspiegelt. ""Rezidiv"" würde daher am besten zu""relapse"" passen (im Vergleich zur Beschreibung bei HL7 und wie eine solche Situation im klinischen Alltag bezeichnet werden würde); für ""recurrence"" würden wie einen Fomrulierung wie ""Wiederholtes Auftreten"" bevorzugen.";;;;;;;;;;;;;;;;;;
+;;relapse;Relapse;Rezidiv;;;;;;;;;;;;;;;;;;;;
+;;inactive;Inactive;Inaktiv;;;;;;;;;;;;;;;;;;;;
+;;remission;Remission;Remission;;;;;;;;;;;;;;;;;;;;
+;;resolved;Resolved;Nicht mehr Vorhanden;;;;;;;;;;;;;;;;;;;;
+;;unkown;Unknown;Unbekannt;;;;;;;;;;;;;;;;;;;;
+ContactPointSystem;http://hl7.org/fhir/contact-point-system;other;Other;Andere;;;;;;;;;;;;;;;;;;;;
+;;sms;SMS;SMS;;;;;;;;;;;;;;;;;;;;
+;;url;URL;URL;;;;;;;;;;;;;;;;;;;;
+;;pager;Pager;Pager;;;;;;;;;;;;;;;;;;;;
+;;email;Email;E-Mail;;;;;;;;;;;;;;;;;;;;
+;;fax;Fax;Fax;;;;;;;;;;;;;;;;;;;;
+;;phone;Phone;Telefon;;;;;;;;;;;;;;;;;;;;
+DeviceNameType;http://hl7.org/fhir/device-nametype;registered-name;Registered Name;Eingetragener Name;;;;;;;;;;;;;;;;;;;;
+;;user-friendly-name;User Friendly name;Gebräuchlicher Name;;;;;;;;;;;;;;;;;;;;
+;;patient-reported-name;Patient Reported name;Von Patient:in angegebener Name;Von Patient/Patientin angegebener Name (AT);"Gechlechterneurtral, ""patientenberichtet"" kein gebräuchlicher Begriff";;;;;;;;;;;;;;;;;;
+DiagnosticReportStatus;http://hl7.org/fhir/diagnostic-report-status;registered;Registered;Registriert;;;;;;;;;;;;;;;;;;;;
+;;partial;Partial;Unvollständig;;ein Wort, keine Verneinung vorangestellt;;;;;;;;;;;;;;;;;;
+;;preliminary;Preliminary;Vorläufig;;;;;;;;;;;;;;;;;;;;
+;;final;Final;Endgültig;;"Im klinischen Alltag ist ""endgültig"" gebräuchliche das Pendent zu ""vorläufig"", um den Status von Arztbriefen und Befunden zu beschreiben.";;;;;;;;;;;;;;;;;;
+;;amended;Amended;Überarbeitet;;;;;;;;;;;;;;;;;;;;
+;;corrected;Corrected;Korrigiert;;;;;;;;;;;;;;;;;;;;
+;;appended;Appended;Ergänzt;;"Nach der HL7-Definition des englischen Codes, wäre ""ergänzt"" aus unserer Sicht etwas passender und gebräuchlicher im Kontext von Befunden.";;;;;;;;;;;;;;;;;;
+;;cancelled;Cancelled;Abgebrochen;;;;;;;;;;;;;;;;;;;;
+;;entered-in-error;Entered in Error;Fehleingabe;;;;;;;;;;;;;;;;;;;;
+;;unknown;Unknown;Unbekannt;;;;;;;;;;;;;;;;;;;;
+EventStatus;http://hl7.org/fhir/event-status;preparation;Preparation;In Vorbereitung;;;;;;;;;;;;;;;;;;;;
+;;in-progress;In Progress;In Bearbeitung;(zwischenzeitlich nach Kommentierung im Spreadsheet schon geändert);;;;;;;;;;;;;;;;;;;
+;;not-done;Not Done;Nicht durchgeführt;;;;;;;;;;;;;;;;;;;;
+;;on-hold;On Hold;Pausiert;;"""Suspendiert"" in diesem Kontext eher ungebräuchlich";;;;;;;;;;;;;;;;;;
+;;stopped;Stopped;Abgebrochen;;"Geläufigere Begriff, ""gestoppt"" klingt etwas informeller";;;;;;;;;;;;;;;;;;
+;;completed;Completed;Abgeschlossen;;"Geläufigerer Begriff (in diesem Kontex des ""Events"", z.B. OP oder diagnostische Maßnahme).";;;;;;;;;;;;;;;;;;
+;;entered-in-error;Entered in Error;Fehleingabe;;;;;;;;;;;;;;;;;;;;
+;;unknown;Unknown;Unbekannt;;;;;;;;;;;;;;;;;;;;
+EventTiming;http://hl7.org/fhir/event-timing;MORN;Morning;Morgens;;;;;;;;;;;;;;;;;;;;
+;;MORN.early;Early Morning;Frühmorgens;;;;;;;;;;;;;;;;;;;;
+;;MORN.late;Late Morning;Spätvormittags;;;;;;;;;;;;;;;;;;;;
+;;NOON;Noon;Mittags;;;;;;;;;;;;;;;;;;;;
+;;AFT;Afternoon;Nachmittag;;;;;;;;;;;;;;;;;;;;
+;;AFT.early;Early Afternoon;Frühnachmittags;;;;;;;;;;;;;;;;;;;;
+;;AFT.late;Late Afternoon;Spätnachmittags;;;;;;;;;;;;;;;;;;;;
+;;EVE;Evening;Abends;;;;;;;;;;;;;;;;;;;;
+;;EVE.early;Early Evening;Frühabends;;;;;;;;;;;;;;;;;;;;
+;;EVE.late;Late Evening;Spätabends;;;;;;;;;;;;;;;;;;;;
+;;NIGHT;Night;Nachts;;;;;;;;;;;;;;;;;;;;
+;;PHS;After Sleep;Nach dem Schlaf;;;;;;;;;;;;;;;;;;;;
+;;IMD;Immediate;Sofort;;;;;;;;;;;;;;;;;;;;
+FHIRDeviceStatusReason;http://terminology.hl7.org/CodeSystem/device-status-reason;online;Online;Online;;;;;;;;;;;;;;;;;;;;
+;;paused;Paused;Pausiert;;;;;;;;;;;;;;;;;;;;
+;;standby;Standby;Stand-by;;;;;;;;;;;;;;;;;;;;
+;;offline;Offline;Offline;;;;;;;;;;;;;;;;;;;;
+;;not-ready;Not Ready;Nicht bereit;;;;;;;;;;;;;;;;;;;;
+;;transduc-discon;Transduc disconnected;Signalgeber nicht verbunden;;;;;;;;;;;;;;;;;;;;
+;;hw-discon;Hardware Disconnected;Hardware nicht verbunden;;;;;;;;;;;;;;;;;;;;
+;;off;Off;Aus;;;;;;;;;;;;;;;;;;;;
+GoalAchievementStatus;http://terminology.hl7.org/CodeSystem/goal-achievement;in-progress;In Progress;In Arbeit;;"Gebräuchlicherer Begriff, ""im Gang"" klingt etwas informeller";;;;;;;;;;;;;;;;;;
+;;improving;Improving;Sich bessernd;;;;;;;;;;;;;;;;;;;;
+;;worsening;Worsening;Sich verschlechternd;;;;;;;;;;;;;;;;;;;;
+;;no-change;No Change;Keine Änderung;;;;;;;;;;;;;;;;;;;;
+;;achieved;Achieved;Erreicht;;;;;;;;;;;;;;;;;;;;
+;;sustaining;Sustaining;Aufrechterhaltend;;"Die wortwörtliche Übersetzung von ""sustaining"" (nachhaltig, selbsterhaltend) in Kombination mit der Beschreibung des englischen Codes von HL7 international würde aus unserer sicht eher auf eine Übersetzung im Sinne von ""weitere Maßnahmen zur Erhaltung des erreichten Ziels notwendig"" (durch den Patienten selbst oder von extern) und würden daher eine Üebrsetzung wie ""erhaltend"" vorschlagen. ""Unterstützend"" wäre da etwas irreführend (im Sinne von ""Ziel nicht alleine durch den Patienten, sondern nur mit externer Unterstützung erreichbar"").";;;;;;;;;;;;;;;;;;
+;;not-achieved;Not Achieved;Nicht erreicht;;;;;;;;;;;;;;;;;;;;
+;;no-progress;No Progress;Kein Fortschritt;;;;;;;;;;;;;;;;;;;;
+;;not-attainable;Not Attainable;Nicht erreichbar;;;;;;;;;;;;;;;;;;;;
+GoalLifecycleStatus;http://hl7.org/fhir/goal-status;proposed;Proposed;Vorgeschlagen;;;;;;;;;;;;;;;;;;;;
+;;planned;Planned;Geplant;;;;;;;;;;;;;;;;;;;;
+;;accepted;Accepted;Angenommen;;;;;;;;;;;;;;;;;;;;
+;;active;Active;Aktiv;;;;;;;;;;;;;;;;;;;;
+;;on-hold;On hold;Pausiert;;"""Suspendiert"" in diesem Kontext eher ungebräuchlich";;;;;;;;;;;;;;;;;;
+;;completed;Completed;Abgeschlossen;;;;;;;;;;;;;;;;;;;;
+;;cancelled;Cancelled;Storniert;;;;;;;;;;;;;;;;;;;;
+;;entered-in-error;Entered in Error;Irrtürmliche Eingabe;;;;;;;;;;;;;;;;;;;;
+;;rejected;Rejected;Abgelehnt;;;;;;;;;;;;;;;;;;;;
+GoalPriority;http://terminology.hl7.org/CodeSystem/goal-priority;high-priority;High Priority;Hohe Priorität;;;;;;;;;;;;;;;;;;;;
+;;medium-priority;Medium Priority;Mittlere Priorität;;;;;;;;;;;;;;;;;;;;
+;;low-priority;Low Priority;Niedrige Priorität;;;;;;;;;;;;;;;;;;;;
+Medication Status Codes;http://hl7.org/fhir/CodeSystem/medication-statement-status;recorded;Recorded;Dokumentiert;;;;;;;;;;;;;;;;;;;;
+;;entered-in-error;Entered in Error;Irrtürmliche Eingabe;;;;;;;;;;;;;;;;;;;;
+;;draft;Draft;Entwurf;;;;;;;;;;;;;;;;;;;;
+AbsentAndUnknownDataUvIps;http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips;no-allergy-info;No information about allergies;Keine Information über Allergien bekannt;;"einheitliche Verwendung von ""vorliegend""?";;;;;;;;;;;;;;;;;;
+;;no-known-allergies;No known allergies;Keine Allergien bekannt;;;;;;;;;;;;;;;;;;;;
+;;no-known-medication-allergies;No known medication allergies;Keine Arzneimittelallergien bekannt;;;;;;;;;;;;;;;;;;;;
+;;no-known-environmental-allergies;No known environmental allergies;Keine Umweltallergien bekannt;;;;;;;;;;;;;;;;;;;;
+;;no-known-food-allergies;No known food allergies;Keine Lebensmittelallergien bekannt;;Siehe Ziele 6, ggf. hier auch Nahrungsmittelallergie statt Lebensmittel;;;;;;;;;;;;;;;;;;
+;;no-device-info;No information about devices;Keine Informationen über Geräte bekannt;;"einheitliche Verwendung von ""vorliegend""";;;;;;;;;;;;;;;;;;
+;;no-known-devices;No known devices in use;Keine Nutzung von Geräten bekannt;;;;;;;;;;;;;;;;;;;;
+;;no-immunization-info;No information about immunizations;Keine Information über Immunisierung bekannt;;"einheitliche Ergänzung von ""vorliegend"", einheitliche Übersetzung von ""immunizations""";;;;;;;;;;;;;;;;;;
+;;no-known-immunizations;No known immunizations;Keine Imunisierung bekannt;;"Einheitliche Übersetzung von ""immunizations""; wärtliche Übersetzung von ""immunizations"" eigentlich ""Impfungen"" (""immunity"" wäre die Übersetzung von ""Immunität"")";;;;;;;;;;;;;;;;;;
+;;no-medication-info;No information about medications;Keine Information über Medikation bekannt;;"einheitliche Ergänzung von ""vorliegend"", Einheitliche Übersetzung von ""medications"" (""Medikation"" statt ""Medikamente"" wäre hier der geläufigere Begriff im klinischen Alltag)";;;;;;;;;;;;;;;;;;
+;;no-known-medications;No known medications;Keine Medikation bekannt;;"Einheitliche Übersetzung von ""medications""; keine bekannten Medikamente ist etwas irreführend (eher im Sinne von ""nimmt unbekannte Medikamente ein""); ""keine bekannte Medikation"" wäre hier die klinische geläufigere Formulierung";;;;;;;;;;;;;;;;;;
+;;no-problem-info;No information about current problems;Keine Informationen über aktuelle Probleme bekannt;;;;;;;;;;;;;;;;;;;;
+;;no-known-problems;No known problems;Keine Probleme bekannt;;;;;;;;;;;;;;;;;;;;
+;;no-procedure-info;No information about past history of procedures;Keine Informationen zu vergangenen Prozeduren;;"einheitliche Verwendung von ""vorliegend""";;;;;;;;;;;;;;;;;;
+;;no-known-procedures;No known procedures;Keine Prozeduren bekannt;;;;;;;;;;;;;;;;;;;;
+ObservationReferenceRangeMeaningCodes;http://terminology.hl7.org/CodeSystem/referencerange-meaning;type;Type;Typ;;;;;;;;;;;;;;;;;;;;
+;;normal;Normal Range;Referenzbereich;;;;;;;;;;;;;;;;;;;;
+;;recommended;Recommended Range;Empfohlener Bereich;;;;;;;;;;;;;;;;;;;;
+;;treatment;Treatment Range;Behandlungsbereich;;;;;;;;;;;;;;;;;;;;
+;;therapeutic;Therapeutic Desired Level;Therapeutisch gewünschtes Level;;;;;;;;;;;;;;;;;;;;
+;;pre;Pre Therapeutic Desired Level;Prätherapeutisch gewünschtes Level;;;;;;;;;;;;;;;;;;;;
+;;post;Post Therapeutic Desired Level;Posttherapeutisch gewünschtes Level;;;;;;;;;;;;;;;;;;;;
+;;endocrine;Endocrine;Endokrin;;;;;;;;;;;;;;;;;;;;
+;;pre-puberty;Pre-Puberty;Präpubertär;;;;;;;;;;;;;;;;;;;;
+;;follicular;Follicular Stage;Follikelphase;;"Analog zu Gelbköper""phase"", gebräuchlicherer Begriff im medizinischen Kontext";;;;;;;;;;;;;;;;;;
+;;midcycle;MidCycle;Zyklusmitte;;;;;;;;;;;;;;;;;;;;
+;;luteal;Luteal;Gelkörperphase;;;;;;;;;;;;;;;;;;;;
+;;postmenopausal;Post-Menopause;Postmenopausal;;;;;;;;;;;;;;;;;;;;
+QuestionnaireItemType;http://hl7.org/fhir/item-type;group;Group;Group;;;;;;;;;;;;;;;;;;;;
+;;display;Display;Display;;;;;;;;;;;;;;;;;;;;
+;;question;Question;Question;;;;;;;;;;;;;;;;;;;;
+;;boolean;Boolean;Boolean;;;;;;;;;;;;;;;;;;;;
+;;decimal;Decimal;Decimal;;;;;;;;;;;;;;;;;;;;
+;;integer;Integer;Integer;;;;;;;;;;;;;;;;;;;;
+;;date;Date;Date;;;;;;;;;;;;;;;;;;;;
+;;dateTime;Date Time;Date Time;;;;;;;;;;;;;;;;;;;;
+;;time;Time;Time;;;;;;;;;;;;;;;;;;;;
+;;string;String;String;;"Insgesamt schwierig zu übersetzende Terme, da bereits die englischen Codes nicht eindeutig die Beschreibungnden der Codes von HL7 international wiedergeben. Könnte man evtl. so etwas wie ""Freitext"" (einzeilig) und ""Freitext"" (mehrzeilig) verwenden? ""Freitext"" und ""Text"" sind ohne weitere Erklärungen eigentlich nicht eindeutig abgrenzbar.";;;;;;;;;;;;;;;;;;
+;;text;Text;Text;;"Insgesamt schwierig zu übersetzende Terme, da bereits die englischen Codes nicht eindeutig die Beschreibungnden der Codes von HL7 international wiedergeben. Könnte man evtl. so etwas wie ""Freitext"" (einzeilig) und ""Freitext"" (mehrzeilig) verwenden? ""Freitext"" und ""Text"" sind ohne weitere Erklärungen eigentlich nicht eindeutig abgrenzbar.";;;;;;;;;;;;;;;;;;
+;;url;Url;Url;;;;;;;;;;;;;;;;;;;;
+;;choice;Choice;Choice;;(in version R5 nicht mehr enthalten);;;;;;;;;;;;;;;;;;
+;;open-choice;Open Choice;Open Choice;;(in version R5 nicht mehr enthalten);;;;;;;;;;;;;;;;;;
+;;quantity;Quantity;Quantity;;;;;;;;;;;;;;;;;;;;
+;;attachment;Attachment;Attachment;;;;;;;;;;;;;;;;;;;;
+;;reference;Reference;Reference;;;;;;;;;;;;;;;;;;;;
+RequestPriority;http://hl7.org/fhir/request-priority;routine;Routine;Routine;;;;;;;;;;;;;;;;;;;;
+;;urgent;Urgent;Dringend;;;;;;;;;;;;;;;;;;;;
+;;asap;ASAP;Baldmöglichst;;;;;;;;;;;;;;;;;;;;
+;;stat;STAT;Sofort;;;;;;;;;;;;;;;;;;;;
+RequestStatus;http://hl7.org/fhir/request-status;draft;Draft;Entwurf;;;;;;;;;;;;;;;;;;;;
+;;active;Active;Aktiv;;;;;;;;;;;;;;;;;;;;
+;;on-hold;On Hold;Pausiert;;"""Suspendiert"" in diesem Kontext eher ungebräuchlich";;;;;;;;;;;;;;;;;;
+;;revoked;Revoked;Widerrufen;;;;;;;;;;;;;;;;;;;;
+;;completed;Completed;Abgeschlossen;;"Gebräuchlicherer Begriff, ""im Gang"" klingt etwas informeller";;;;;;;;;;;;;;;;;;
+;;entered-in-error;Entered in Error;Irrtürmliche Eingabe;;;;;;;;;;;;;;;;;;;;
+;;unknown;Unknown;Unbekannt;;;;;;;;;;;;;;;;;;;;
+v3.ObservationInterpretation;http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation;_GeneticObservationInterpretation;GeneticObservationInterpretation;Interpretation der genetischen Analyse;;;;;;;;;;;;;;;;;;;;
+;;CAR;Carrier;Anlageträger;;;;;;;;;;;;;;;;;;;;
+;;_ObservationInterpretationChange;ObservationInterpretationChange;Änderungsverlauf;;"Einheitliche Formulierung (also ""Interpretation der XY"" analog zu Zeile 166), klingt in den meisten Fällen (also die anderen Codes mit ""Interpretation"" wie Zeiele 173, 177 usw.) etwas verständlicher";;;;;;;;;;;;;;;;;;
+;;B;Better;Besser;;;;;;;;;;;;;;;;;;;;
+;;D;Significant change down;Signifikanter Rückgang;;;;;;;;;;;;;;;;;;;;
+;;U;Significant change up;Signifikanter Anstieg;;;;;;;;;;;;;;;;;;;;
+;;W;Worse;Schlechter;;;;;;;;;;;;;;;;;;;;
+;;_ObservationInterpretationExceptions;ObservationInterpretationExceptions;Ausnahmewertinterpretation;;;;;;;;;;;;;;;;;;;;
+;;kleinerals;Off scale low;Unterhalb der analytischen Grenze;;;;;;;;;;;;;;;;;;;;
+;;größerals;Off scale high;Oberhalb der analytischen Grenze;;;;;;;;;;;;;;;;;;;;
+;;IE;Insufficient evidence;Evidenz unzureichend;;;;;;;;;;;;;;;;;;;;
+;;_ObservationInterpretationNormality;ObservationInterpretationNormality;Normalitätsinterpretation;;;;;;;;;;;;;;;;;;;;
+;;A;Abnormal;Abnorm;;;;;;;;;;;;;;;;;;;;
+;;AA;Critical abnormal;Kritisch abnorm;;;;;;;;;;;;;;;;;;;;
+;;HH;Critical high;Kritisch Hoch;;;;;;;;;;;;;;;;;;;;
+;;LL;Critical low;Kritisch niedrig;;;;;;;;;;;;;;;;;;;;
+;;H;High;Hoch;;;;;;;;;;;;;;;;;;;;
+;;HU;Significantly high;Signifikant hoch;;;;;;;;;;;;;;;;;;;;
+;;L;Low;Niedrig;;;;;;;;;;;;;;;;;;;;
+;;LU;Significantly low;Signifikant niedrig;;;;;;;;;;;;;;;;;;;;
+;;N;Normal;Normal;;;;;;;;;;;;;;;;;;;;
+;;_ObservationInterpretationSusceptibility;ObservationInterpretationSusceptibility;Interperation der antimikrobiellen Empfindlichkeit;;;;;;;;;;;;;;;;;;;;
+;;I;Intermediate;Intermediär;;;;;;;;;;;;;;;;;;;;
+;;NCL;No CLSI defined breakpoint;Kein CLSI definierter Schwellenwert für Empfindlichkeit verfügbar;;;;;;;;;;;;;;;;;;;;
+;;NS;Non-susceptible;Nicht empfindlich;;;;;;;;;;;;;;;;;;;;
+;;R;Resistant;Resistent;;;;;;;;;;;;;;;;;;;;
+;;SYN-R;Synergy - resistant;Resistent gegenüber Substanzkombination;;;;;;;;;;;;;;;;;;;;
+;;S;Susceptible;Empfindlich;;;;;;;;;;;;;;;;;;;;
+;;SDD;Susceptible-dose dependent;Dosis-/Konzentrationsabhängige Empfindlichkeit;;;;;;;;;;;;;;;;;;;;
+;;SYN-S;Synergy - susceptible;Empfindlich gegenüber Substanzkombination;;;;;;;;;;;;;;;;;;;;
+;;EX;outside threshold;Interpretation außerhalb des Grenzwertes;;;;;;;;;;;;;;;;;;;;
+;;HX;above high threshold;Oberhalb des oberen Grenzwertes;;;;;;;;;;;;;;;;;;;;
+;;LX;below low threshold;Unterhalb des unteren Grenzwertes;;;;;;;;;;;;;;;;;;;;
+;;ObservationInterpretationDetection;ObservationInterpretationDetection;Feststellungsinterpretation;;;;;;;;;;;;;;;;;;;;
+;;IND;Indeterminate;Unbestimmbar;;;;;;;;;;;;;;;;;;;;
+;;E;Equivocal;Mehrdeutig;;;;;;;;;;;;;;;;;;;;
+;;NEG;Negative;Negativ;;;;;;;;;;;;;;;;;;;;
+;;ND;Not detected;Nicht nachgewiesen;;;;;;;;;;;;;;;;;;;;
+;;POS;Positive;Positiv;;;;;;;;;;;;;;;;;;;;
+;;DET;Detected;Nachgewiesen;;;;;;;;;;;;;;;;;;;;
+;;ObservationInterpretationExpectation;ObservationInterpretationExpectation;Erwartungsinterpretation;;;;;;;;;;;;;;;;;;;;
+;;EXP;Expected;Erwartet;;;;;;;;;;;;;;;;;;;;
+;;UNE;Unexpected;Unerwartet;;;;;;;;;;;;;;;;;;;;
+;;ReactivityObservationInterpretation;ReactivityObservationInterpretation;Reaktivitätsinterpretation;;;;;;;;;;;;;;;;;;;;
+;;NR;Non-reactive;Nicht reaktiv;;;;;;;;;;;;;;;;;;;;
+;;RR;Reactive;Reaktiv;;;;;;;;;;;;;;;;;;;;
+;;WR;Weakly reactive;Schwach reaktiv;;;;;;;;;;;;;;;;;;;;
+Hl7VSContactRole2;http://terminology.hl7.org/CodeSystem/v2-0131;BP;Billing contact person;Kontaktperson für Abrechnung;;;;;;;;;;;;;;;;;;;;
+;;CP;Contact person;Kontaktperson;;;;;;;;;;;;;;;;;;;;
+;;EP;Emergency contact person;Notfallkontaktperson;;;;;;;;;;;;;;;;;;;;
+;;PR;Person preparing referral;Person, die die Überweisung vorbereitet;;;;;;;;;;;;;;;;;;;;
+;;E;Employer;Arbeitgeber;Arbeitgeber (AT);Geschlechtsneutral;;;;;;;;;;;;;;;;;;
+;;C;Emergency contact;Notfallkontakt;;;;;;;;;;;;;;;;;;;;
+;;F;Federal Agency;Bundesbehörde;;;;;;;;;;;;;;;;;;;;
+;;I;Insurance Company;Versicherungsunternehmen;;;;;;;;;;;;;;;;;;;;
+;;N;Next-of-Kin;Nächste Angehörige;;;;;;;;;;;;;;;;;;;;
+;;S;State Agency;Landesbehörde;;;;;;;;;;;;;;;;;;;;
+;;O;Other;Andere;;;;;;;;;;;;;;;;;;;;
+;;U;Unknown;Unbekannt;;;;;;;;;;;;;;;;;;;;

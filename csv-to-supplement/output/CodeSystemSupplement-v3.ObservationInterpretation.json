@@ -42,7 +42,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Signifikanter Anstieg"
+                    "value": "Signifikanter Rückgang"
                 }
             ]
         },
@@ -51,7 +51,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Signifikanter Rückgang"
+                    "value": "Signifikanter Anstieg"
                 }
             ]
         },
@@ -114,7 +114,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Abnormal"
+                    "value": "Abnorm"
                 }
             ]
         },
@@ -123,7 +123,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Kritisch abnormal"
+                    "value": "Kritisch abnorm"
                 }
             ]
         },
@@ -132,7 +132,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Kritisch erhöht"
+                    "value": "Kritisch Hoch"
                 }
             ]
         },
@@ -141,7 +141,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Kritisch erniedrigt"
+                    "value": "Kritisch niedrig"
                 }
             ]
         },
@@ -150,7 +150,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Erhöht"
+                    "value": "Hoch"
                 }
             ]
         },
@@ -159,7 +159,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Signifikant erhöht"
+                    "value": "Signifikant hoch"
                 }
             ]
         },
@@ -168,7 +168,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Erniedrigt"
+                    "value": "Niedrig"
                 }
             ]
         },
@@ -177,7 +177,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Signifikant erniedrigt"
+                    "value": "Signifikant niedrig"
                 }
             ]
         },
@@ -195,7 +195,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Interpretation antimikrobieller Empfindlichkeit"
+                    "value": "Interperation der antimikrobiellen Empfindlichkeit"
                 }
             ]
         },
@@ -204,7 +204,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "mittlere Empfindlichkeit"
+                    "value": "Intermediär"
                 }
             ]
         },
@@ -285,7 +285,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Oberhalb des oberen Grenzwerts"
+                    "value": "Oberhalb des oberen Grenzwertes"
                 }
             ]
         },
@@ -294,7 +294,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Unterhalb des unteren Grenzwerts"
+                    "value": "Unterhalb des unteren Grenzwertes"
                 }
             ]
         },
@@ -321,7 +321,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Uneindeutig"
+                    "value": "Mehrdeutig"
                 }
             ]
         },

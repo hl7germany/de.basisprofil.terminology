@@ -1,0 +1,125 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "supplement",
+  "name": "SupplementHl7VSContactRole2",
+  "id": "hl7vscontactrole2-supplement",
+  "title": "Supplement Hl7VSContactRole2",
+  "description": "CodeSystem Supplement mit Deutschen Übersetzungen für Hl7VSContactRole2",
+  "version": "0.1.0",
+  "url": "http://fhir.de/CodeSystem/hl7vscontactrole2-supplement",
+  "concept": [
+    {
+      "code": "BP",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Kontaktperson für Abrechnung"
+        }
+      ]
+    },
+    {
+      "code": "CP",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Kontaktperson"
+        }
+      ]
+    },
+    {
+      "code": "EP",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Notfallkontaktperson"
+        }
+      ]
+    },
+    {
+      "code": "PR",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Person, die die Überweisung vorbereitet"
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Arbeitgeber"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Notfallkontakt"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Bundesbehörde"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Versicherungsunternehmen"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Nächste Angehörige"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Landesbehörde"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Andere"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Unbekannt"
+        }
+      ]
+    }
+  ],
+  "date": "2022-02-09",
+  "experimental": true,
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+  "supplements": "http://terminology.hl7.org/CodeSystem/v2-0131"
+}

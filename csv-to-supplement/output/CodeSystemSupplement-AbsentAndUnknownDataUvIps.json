@@ -1,0 +1,152 @@
+{
+    "id": "absentandunknowndatauvips-supplement",
+    "concept": [
+        {
+            "code": "no-allergy-info",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine Information über Allergien bekannt"
+                }
+            ]
+        },
+        {
+            "code": "no-known-allergies",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine Allergien bekannt"
+                }
+            ]
+        },
+        {
+            "code": "no-known-medication-allergies",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine Arzneimittelallergien bekannt"
+                }
+            ]
+        },
+        {
+            "code": "no-known-environmental-allergies",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine Umweltallergien bekannt"
+                }
+            ]
+        },
+        {
+            "code": "no-known-food-allergies",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine Lebensmittelallergien bekannt"
+                }
+            ]
+        },
+        {
+            "code": "no-device-info",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine Informationen über Geräte bekannt"
+                }
+            ]
+        },
+        {
+            "code": "no-known-devices",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine Nutzung von Geräten bekannt"
+                }
+            ]
+        },
+        {
+            "code": "no-immunization-info",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine Information über Immunisierung bekannt"
+                }
+            ]
+        },
+        {
+            "code": "no-known-immunizations",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine Imunisierung bekannt"
+                }
+            ]
+        },
+        {
+            "code": "no-medication-info",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine Information über Medikation bekannt"
+                }
+            ]
+        },
+        {
+            "code": "no-known-medications",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine Medikation bekannt"
+                }
+            ]
+        },
+        {
+            "code": "no-problem-info",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine Informationen über aktuelle Probleme bekannt"
+                }
+            ]
+        },
+        {
+            "code": "no-known-problems",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine Probleme bekannt"
+                }
+            ]
+        },
+        {
+            "code": "no-procedure-info",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine Informationen zu vergangenen Prozeduren"
+                }
+            ]
+        },
+        {
+            "code": "no-known-procedures",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Keine Prozeduren bekannt"
+                }
+            ]
+        }
+    ],
+    "content": "supplement",
+    "date": "2022-02-09",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für AbsentAndUnknownDataUvIps",
+    "experimental": true,
+    "name": "SupplementAbsentAndUnknownDataUvIps",
+    "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
+    "status": "draft",
+    "supplements": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+    "title": "Supplement AbsentAndUnknownDataUvIps",
+    "url": "http://fhir.de/CodeSystem/absentandunknowndatauvips-supplement",
+    "version": "0.1.0",
+    "resourceType": "CodeSystem"
+}

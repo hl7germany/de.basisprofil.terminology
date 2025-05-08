@@ -10,14 +10,14 @@ Description: "CodeSystem Supplement mit Deutschen Übersetzungen für Administra
 * ^supplements = "http://hl7.org/fhir/administrative-gender"
 * ^version = "0.1.0"
 * #male
-* #male ^designation.language = #de-DE
-* #male ^designation.value = "Männlich"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Männlich"
 * #female
-* #female ^designation.language = #de-DE
-* #female ^designation.value = "Weiblich"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Weiblich"
 * #other
-* #other ^designation.language = #de-DE
-* #other ^designation.value = "Andere"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Andere"
 * #unkown
-* #unkown ^designation.language = #de-DE
-* #unkown ^designation.value = "Unbekannt"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Unbekannt"

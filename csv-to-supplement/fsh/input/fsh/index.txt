@@ -1,4 +1,5 @@
 Name                                                 Type        File
+SupplementAbsentAndUnknownDataUvIps                  CodeSystem  codesystems/SupplementAbsentAndUnknownDataUvIps.fsh
 SupplementAdministrativeGender                       CodeSystem  codesystems/SupplementAdministrativeGender.fsh
 SupplementAllergyIntoleranceCategory                 CodeSystem  codesystems/SupplementAllergyIntoleranceCategory.fsh
 SupplementAllergyIntoleranceClinicalStatusCodes      CodeSystem  codesystems/SupplementAllergyIntoleranceClinicalStatusCodes.fsh
@@ -7,7 +8,6 @@ SupplementAllergyIntoleranceType                     CodeSystem  codesystems/Sup
 SupplementAllergyIntoleranceVerificationStatusCodes  CodeSystem  codesystems/SupplementAllergyIntoleranceVerificationStatusCodes.fsh
 SupplementCarePlanIntent                             CodeSystem  codesystems/SupplementCarePlanIntent.fsh
 SupplementConditionClinicalStatusCodes               CodeSystem  codesystems/SupplementConditionClinicalStatusCodes.fsh
-SupplementConditionDiagnosisSeverity                 CodeSystem  codesystems/SupplementConditionDiagnosisSeverity.fsh
 SupplementContactPointSystem                         CodeSystem  codesystems/SupplementContactPointSystem.fsh
 SupplementDeviceNameType                             CodeSystem  codesystems/SupplementDeviceNameType.fsh
 SupplementDiagnosticReportStatus                     CodeSystem  codesystems/SupplementDiagnosticReportStatus.fsh
@@ -17,17 +17,10 @@ SupplementFHIRDeviceStatusReason                     CodeSystem  codesystems/Sup
 SupplementGoalAchievementStatus                      CodeSystem  codesystems/SupplementGoalAchievementStatus.fsh
 SupplementGoalLifecycleStatus                        CodeSystem  codesystems/SupplementGoalLifecycleStatus.fsh
 SupplementGoalPriority                               CodeSystem  codesystems/SupplementGoalPriority.fsh
+SupplementHl7VSContactRole2                          CodeSystem  codesystems/SupplementHl7VSContactRole2.fsh
 SupplementMedicationStatusCodes                      CodeSystem  codesystems/SupplementMedicationStatusCodes.fsh
-SupplementNoAllergiesInfoUvIps                       CodeSystem  codesystems/SupplementNoAllergiesInfoUvIps.fsh
-SupplementNoDevicesInfoUvIps                         CodeSystem  codesystems/SupplementNoDevicesInfoUvIps.fsh
-SupplementNoImmunizationInfoUvIps                    CodeSystem  codesystems/SupplementNoImmunizationInfoUvIps.fsh
-SupplementNoMedsInfoUvIps                            CodeSystem  codesystems/SupplementNoMedsInfoUvIps.fsh
-SupplementNoProbsInfoUvIps                           CodeSystem  codesystems/SupplementNoProbsInfoUvIps.fsh
-SupplementNoProceduresInfoUvIps                      CodeSystem  codesystems/SupplementNoProceduresInfoUvIps.fsh
 SupplementObservationReferenceRangeMeaningCodes      CodeSystem  codesystems/SupplementObservationReferenceRangeMeaningCodes.fsh
-SupplementProvenanceActivityType                     CodeSystem  codesystems/SupplementProvenanceActivityType.fsh
 SupplementQuestionnaireItemType                      CodeSystem  codesystems/SupplementQuestionnaireItemType.fsh
 SupplementRequestPriority                            CodeSystem  codesystems/SupplementRequestPriority.fsh
 SupplementRequestStatus                              CodeSystem  codesystems/SupplementRequestStatus.fsh
-SupplementUCUMCodes                                  CodeSystem  codesystems/SupplementUCUMCodes.fsh
 Supplementv3ObservationInterpretation                CodeSystem  codesystems/Supplementv3ObservationInterpretation.fsh

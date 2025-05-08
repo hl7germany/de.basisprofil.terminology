@@ -12,14 +12,13 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: 'de.basisprofil.terminology'
-          token: ${{ secrets.Personal_Access_Token_Public_Repo }}
 
       - name: Checkout Package Registry
         uses: actions/checkout@v4
         with:
           repository: 'hl7germany/hl7-de-package-feed'
           path: 'hl7-de-package-feed'
-          token: ${{ secrets.Personal_Access_Token_Public_Repo }}
+ #         token: ${{ secrets.Personal_Access_Token_Public_Repo }}
 
       - name: Checkout Update Package Registry Script
         uses: actions/checkout@v4

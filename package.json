@@ -1,9 +1,11 @@
 {
   "name": "de.basisprofil.terminology",
+  "description": "de.basisprofil.terminology",
+  "author": "patrickwerner",
   "version": "0.0.1-alpha1",
-  "fhirVersions": [
-    "4.0.1"
-  ],
+  "fhirVersions": ["4.0.1"],
+  "type": "Conformance",
+  "canonical": "http://fhir.de/packages/de.basisprofil.terminology",
   "dependencies": {
   }
 }

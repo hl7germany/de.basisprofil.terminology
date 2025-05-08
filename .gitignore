@@ -7,3 +7,6 @@ Thumbs.db
 /.venv
 ImplementationGuide*
 validator_cli.jar
+fsh-index.txt
+fsh-index.json
+fsh-link-references.md

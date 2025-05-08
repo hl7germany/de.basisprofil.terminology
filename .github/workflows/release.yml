@@ -27,6 +27,11 @@ jobs:
           path: 'update-fhir-package-feed'
 #          token: ${{ secrets.Personal_Access_Token_Public_Repo }}
 
+      - name: Restore FHIR dependencies
+        run: |
+          cd de.basisprofil.terminology
+          fhir restore
+
       - name: Release-FHIR-Package-To-Registry (GitHub Actions)
         uses: alexzautke/fhir-package-registry-pipeline@v0.2.2
         with:

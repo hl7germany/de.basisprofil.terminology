@@ -32,7 +32,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Suspendiert"
+          "value": "Pausiert"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Erledigt"
+          "value": "Abgeschlossen"
         }
       ]
     },

@@ -1,44 +1,44 @@
 {
-    "id": "condition-diagnosisseverity-supplement",
+    "id": "medication-status-codes-supplement",
     "concept": [
         {
-            "code": "255604002",
+            "code": "recorded",
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Leicht"
+                    "value": "Dokumentiert"
                 }
             ]
         },
         {
-            "code": "6736007",
+            "code": "entered-in-error",
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Mittelschwer"
+                    "value": "Irrtürmliche Eingabe"
                 }
             ]
         },
         {
-            "code": "24484000",
+            "code": "draft",
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Schwer"
+                    "value": "Entwurf"
                 }
             ]
         }
     ],
     "content": "supplement",
     "date": "2022-02-09",
-    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für Condition/DiagnosisSeverity",
+    "description": "CodeSystem Supplement mit Deutschen Übersetzungen für Medication Status Codes",
     "experimental": true,
-    "name": "SupplementConditionDiagnosisSeverity",
+    "name": "SupplementMedicationStatusCodes",
     "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
     "status": "draft",
-    "supplements": "https://www.snomed.org/",
-    "title": "Supplement Condition/DiagnosisSeverity",
-    "url": "http://fhir.de/CodeSystem/condition-diagnosisseverity-supplement",
+    "supplements": "http://hl7.org/fhir/CodeSystem/medication-statement-status",
+    "title": "Supplement Medication Status Codes",
+    "url": "http://fhir.de/CodeSystem/medication-status-codes-supplement",
     "version": "0.1.0",
     "resourceType": "CodeSystem"
 }

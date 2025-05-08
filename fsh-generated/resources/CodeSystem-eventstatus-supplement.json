@@ -1,11 +1,12 @@
 {
   "resourceType": "CodeSystem",
-  "status": "active",
+  "status": "draft",
   "content": "supplement",
   "name": "SupplementEventStatus",
   "id": "eventstatus-supplement",
   "title": "Supplement EventStatus",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für EventStatus",
+  "version": "0.1.0",
   "url": "http://fhir.de/CodeSystem/eventstatus-supplement",
   "concept": [
     {
@@ -22,7 +23,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Im Gange"
+          "value": "In Bearbeitung"
         }
       ]
     },
@@ -40,7 +41,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Suspendiert"
+          "value": "Pausiert"
         }
       ]
     },
@@ -49,7 +50,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Gestoppt"
+          "value": "Abgebrochen"
         }
       ]
     },
@@ -58,7 +59,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Erledigt"
+          "value": "Abgeschlossen"
         }
       ]
     },
@@ -67,7 +68,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Irrtümliche Eingabe"
+          "value": "Fehleingabe"
         }
       ]
     },
@@ -81,19 +82,8 @@
       ]
     }
   ],
+  "date": "2022-02-09",
   "experimental": true,
-  "date": "2025-05-08",
-  "publisher": "HL7 Deutschland e.V. (Technisches Komitee Terminologie)",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "url",
-          "value": "https://hl7.de/technische-komitees/terminologien/"
-        }
-      ]
-    }
-  ],
-  "version": "0.0.1-alpha1",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "supplements": "http://hl7.org/fhir/event-status"
 }

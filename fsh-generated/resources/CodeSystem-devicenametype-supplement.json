@@ -1,19 +1,20 @@
 {
   "resourceType": "CodeSystem",
-  "status": "active",
+  "status": "draft",
   "content": "supplement",
   "name": "SupplementDeviceNameType",
   "id": "devicenametype-supplement",
   "title": "Supplement DeviceNameType",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für DeviceNameType",
+  "version": "0.1.0",
   "url": "http://fhir.de/CodeSystem/devicenametype-supplement",
   "concept": [
     {
-      "code": "udi-label-name",
+      "code": "registered-name",
       "designation": [
         {
           "language": "de-DE",
-          "value": "UDI Kennzeichnungsname"
+          "value": "Eingetragener Name"
         }
       ]
     },
@@ -22,7 +23,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Benutzerfreundlicher Name"
+          "value": "Gebräuchlicher Name"
         }
       ]
     },
@@ -31,51 +32,13 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Patientenberichteter Name"
-        }
-      ]
-    },
-    {
-      "code": "manufacturer-name",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Herstellername"
-        }
-      ]
-    },
-    {
-      "code": "model-name",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Modellname"
-        }
-      ]
-    },
-    {
-      "code": "other",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Sonstige"
+          "value": "Von Patient:in angegebener Name"
         }
       ]
     }
   ],
+  "date": "2022-02-09",
   "experimental": true,
-  "date": "2025-05-08",
-  "publisher": "HL7 Deutschland e.V. (Technisches Komitee Terminologie)",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "url",
-          "value": "https://hl7.de/technische-komitees/terminologien/"
-        }
-      ]
-    }
-  ],
-  "version": "0.0.1-alpha1",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "supplements": "http://hl7.org/fhir/device-nametype"
 }

@@ -10,20 +10,11 @@
   "url": "http://fhir.de/CodeSystem/medication-status-codes-supplement",
   "concept": [
     {
-      "code": "active",
+      "code": "recorded",
       "designation": [
         {
           "language": "de-DE",
-          "value": "Aktiv"
-        }
-      ]
-    },
-    {
-      "code": "completed",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Abgeschlossen"
+          "value": "Dokumentiert"
         }
       ]
     },
@@ -37,47 +28,11 @@
       ]
     },
     {
-      "code": "intended",
+      "code": "draft",
       "designation": [
         {
           "language": "de-DE",
-          "value": "Beabsichtigt"
-        }
-      ]
-    },
-    {
-      "code": "stopped",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Gestoppt"
-        }
-      ]
-    },
-    {
-      "code": "on-hold",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Suspendiert"
-        }
-      ]
-    },
-    {
-      "code": "unknown",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Unbekannt"
-        }
-      ]
-    },
-    {
-      "code": "not-taken",
-      "designation": [
-        {
-          "language": "de-DE",
-          "value": "Nicht eingenommen"
+          "value": "Entwurf"
         }
       ]
     }

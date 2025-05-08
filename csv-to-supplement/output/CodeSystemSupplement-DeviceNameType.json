@@ -2,11 +2,11 @@
     "id": "devicenametype-supplement",
     "concept": [
         {
-            "code": "udi-label-name",
+            "code": "registered-name",
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "UDI Kennzeichnungsname"
+                    "value": "Eingetragener Name"
                 }
             ]
         },
@@ -15,7 +15,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Benutzerfreundlicher Name"
+                    "value": "Gebräuchlicher Name"
                 }
             ]
         },
@@ -24,34 +24,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Patientenberichteter Name"
-                }
-            ]
-        },
-        {
-            "code": "manufacturer-name",
-            "designation": [
-                {
-                    "language": "de-DE",
-                    "value": "Herstellername"
-                }
-            ]
-        },
-        {
-            "code": "model-name",
-            "designation": [
-                {
-                    "language": "de-DE",
-                    "value": "Modellname"
-                }
-            ]
-        },
-        {
-            "code": "other",
-            "designation": [
-                {
-                    "language": "de-DE",
-                    "value": "Sonstige"
+                    "value": "Von Patient:in angegebener Name"
                 }
             ]
         }

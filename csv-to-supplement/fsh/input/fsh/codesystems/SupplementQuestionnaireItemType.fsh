@@ -3,51 +3,60 @@ Id: questionnaireitemtype-supplement
 Title: "Supplement QuestionnaireItemType"
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für QuestionnaireItemType"
 * ^content = #supplement
-
+* ^date = "2022-02-09"
+* ^experimental = true
+* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* ^status = #draft
 * ^supplements = "http://hl7.org/fhir/item-type"
 * ^version = "0.1.0"
 * #group
-* #group ^designation.language = #de-DE
-* #group ^designation.value = "Gruppe"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Group"
 * #display
-* #display ^designation.language = #de-DE
-* #display ^designation.value = "Anzeige"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Display"
 * #question
-* #question ^designation.language = #de-DE
-* #question ^designation.value = "Frage"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Question"
 * #boolean
-* #boolean ^designation.language = #de-DE
-* #boolean ^designation.value = "Boolscher Wert"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Boolean"
 * #decimal
-* #decimal ^designation.language = #de-DE
-* #decimal ^designation.value = "Dezimalzahl"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Decimal"
 * #integer
-* #integer ^designation.language = #de-DE
-* #integer ^designation.value = "Ganzzahl"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Integer"
 * #date
-* #date ^designation.language = #de-DE
-* #date ^designation.value = "Datum"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Date"
 * #dateTime
-* #dateTime ^designation.language = #de-DE
-* #dateTime ^designation.value = "Datum/Zeit"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Date Time"
 * #time
-* #time ^designation.language = #de-DE
-* #time ^designation.value = "Uhrzeit"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Time"
 * #string
-* #string ^designation.language = #de-DE
-* #string ^designation.value = "Freitext"
+  * ^designation.language = #de-DE
+  * ^designation.value = "String"
 * #text
-* #text ^designation.language = #de-DE
-* #text ^designation.value = "Text"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Text"
 * #url
-* #url ^designation.language = #de-DE
-* #url ^designation.value = "URL"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Url"
 * #choice
-* #choice ^designation.language = #de-DE
-* #choice ^designation.value = "Wahl"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Choice"
 * #open-choice
-* #open-choice ^designation.language = #de-DE
-* #open-choice ^designation.value = "Freie Wahl"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Open Choice"
 * #quantity
-* #quantity ^designation.language = #de-DE
-* #quantity ^designation.value = "Wert"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Quantity"
+* #attachment
+  * ^designation.language = #de-DE
+  * ^designation.value = "Attachment"
+* #reference
+  * ^designation.language = #de-DE
+  * ^designation.value = "Reference"

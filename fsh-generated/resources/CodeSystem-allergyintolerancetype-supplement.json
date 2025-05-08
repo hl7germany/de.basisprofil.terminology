@@ -1,11 +1,12 @@
 {
   "resourceType": "CodeSystem",
-  "status": "active",
+  "status": "draft",
   "content": "supplement",
   "name": "SupplementAllergyIntoleranceType",
   "id": "allergyintolerancetype-supplement",
   "title": "Supplement AllergyIntoleranceType",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für AllergyIntoleranceType",
+  "version": "0.1.0",
   "url": "http://fhir.de/CodeSystem/allergyintolerancetype-supplement",
   "concept": [
     {
@@ -27,19 +28,8 @@
       ]
     }
   ],
+  "date": "2022-02-09",
   "experimental": true,
-  "date": "2025-05-08",
-  "publisher": "HL7 Deutschland e.V. (Technisches Komitee Terminologie)",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "url",
-          "value": "https://hl7.de/technische-komitees/terminologien/"
-        }
-      ]
-    }
-  ],
-  "version": "0.0.1-alpha1",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "supplements": "http://hl7.org/fhir/allergy-intolerance-type"
 }

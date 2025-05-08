@@ -15,7 +15,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Wiederauftreten"
+                    "value": "Wiederholtes Auftreten"
                 }
             ]
         },
@@ -51,7 +51,16 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Behoben"
+                    "value": "Nicht mehr Vorhanden"
+                }
+            ]
+        },
+        {
+            "code": "unkown",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Unbekannt"
                 }
             ]
         }

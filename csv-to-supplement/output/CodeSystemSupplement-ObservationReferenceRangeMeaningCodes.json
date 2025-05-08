@@ -6,7 +6,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Generell"
+                    "value": "Typ"
                 }
             ]
         },
@@ -24,7 +24,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Entscheidungsgrenze, Bewertungsgrenze"
+                    "value": "Empfohlener Bereich"
                 }
             ]
         },
@@ -33,7 +33,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Therapeutischer Bereich"
+                    "value": "Behandlungsbereich"
                 }
             ]
         },
@@ -42,7 +42,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Therapeutischer Zielbereich"
+                    "value": "Therapeutisch gewünschtes Level"
                 }
             ]
         },
@@ -51,7 +51,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Prätherapeutischer Zielbereich"
+                    "value": "Prätherapeutisch gewünschtes Level"
                 }
             ]
         },
@@ -60,7 +60,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Posttherapeutischer Zielbereich"
+                    "value": "Posttherapeutisch gewünschtes Level"
                 }
             ]
         },
@@ -69,7 +69,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Endokrinologisch adaptiert"
+                    "value": "Endokrin"
                 }
             ]
         },
@@ -78,7 +78,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Erwartungsbereich präpubertär"
+                    "value": "Präpubertär"
                 }
             ]
         },
@@ -87,7 +87,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Erwartungsbereich im follikulären Stadium"
+                    "value": "Follikelphase"
                 }
             ]
         },
@@ -96,7 +96,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Erwartungsbereich in der Zyklusmitte"
+                    "value": "Zyklusmitte"
                 }
             ]
         },
@@ -105,7 +105,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Erwartungsbereich in der lutealen Phase"
+                    "value": "Gelkörperphase"
                 }
             ]
         },
@@ -114,7 +114,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Erwartungsbereich postmenopausal"
+                    "value": "Postmenopausal"
                 }
             ]
         }

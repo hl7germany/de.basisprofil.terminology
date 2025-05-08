@@ -1,11 +1,12 @@
 {
   "resourceType": "CodeSystem",
-  "status": "active",
+  "status": "draft",
   "content": "supplement",
   "name": "SupplementEventTiming",
   "id": "eventtiming-supplement",
   "title": "Supplement EventTiming",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für EventTiming",
+  "version": "0.1.0",
   "url": "http://fhir.de/CodeSystem/eventtiming-supplement",
   "concept": [
     {
@@ -22,7 +23,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Früher Morgen"
+          "value": "Frühmorgens"
         }
       ]
     },
@@ -31,7 +32,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Später Vormittag"
+          "value": "Spätvormittags"
         }
       ]
     },
@@ -58,7 +59,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Früher Nachmittag"
+          "value": "Frühnachmittags"
         }
       ]
     },
@@ -67,7 +68,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Später Nachmittag"
+          "value": "Spätnachmittags"
         }
       ]
     },
@@ -85,7 +86,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Früher Abend"
+          "value": "Frühabends"
         }
       ]
     },
@@ -94,7 +95,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Später Abend"
+          "value": "Spätabends"
         }
       ]
     },
@@ -115,21 +116,19 @@
           "value": "Nach dem Schlaf"
         }
       ]
-    }
-  ],
-  "experimental": true,
-  "date": "2025-05-08",
-  "publisher": "HL7 Deutschland e.V. (Technisches Komitee Terminologie)",
-  "contact": [
+    },
     {
-      "telecom": [
+      "code": "IMD",
+      "designation": [
         {
-          "system": "url",
-          "value": "https://hl7.de/technische-komitees/terminologien/"
+          "language": "de-DE",
+          "value": "Sofort"
         }
       ]
     }
   ],
-  "version": "0.0.1-alpha1",
+  "date": "2022-02-09",
+  "experimental": true,
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "supplements": "http://hl7.org/fhir/event-timing"
 }

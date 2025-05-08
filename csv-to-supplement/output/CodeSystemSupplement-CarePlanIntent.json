@@ -20,11 +20,56 @@
             ]
         },
         {
+            "code": "directive",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Richtlinie"
+                }
+            ]
+        },
+        {
             "code": "order",
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Anordnung"
+                    "value": "Auftrag"
+                }
+            ]
+        },
+        {
+            "code": "original-order",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Ursprünglicher Auftrag"
+                }
+            ]
+        },
+        {
+            "code": "reflex-order",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Auftrag als Reaktion auf erste Ergebnisse"
+                }
+            ]
+        },
+        {
+            "code": "filler-order",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Auftrag des Leistungserbringers"
+                }
+            ]
+        },
+        {
+            "code": "instance-order",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Unterauftrag"
                 }
             ]
         },

@@ -23,7 +23,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Im Gange"
+          "value": "In Bearbeitung"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Suspendiert"
+          "value": "Pausiert"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Gestoppt"
+          "value": "Abgebrochen"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Erledigt"
+          "value": "Abgeschlossen"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Irrtümliche Eingabe"
+          "value": "Fehleingabe"
         }
       ]
     },

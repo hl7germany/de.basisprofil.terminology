@@ -2,45 +2,49 @@ CodeSystem: SupplementObservationReferenceRangeMeaningCodes
 Id: observationreferencerangemeaningcodes-supplement
 Title: "Supplement ObservationReferenceRangeMeaningCodes"
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für ObservationReferenceRangeMeaningCodes"
-* insert Meta
 * ^content = #supplement
+* ^date = "2022-02-09"
+* ^experimental = true
+* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* ^status = #draft
 * ^supplements = "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+* ^version = "0.1.0"
 * #type
-* #type ^designation.language = #de-DE
-* #type ^designation.value = "Generell"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Typ"
 * #normal
-* #normal ^designation.language = #de-DE
-* #normal ^designation.value = "Referenzbereich"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Referenzbereich"
 * #recommended
-* #recommended ^designation.language = #de-DE
-* #recommended ^designation.value = "Entscheidungsgrenze, Bewertungsgrenze"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Empfohlener Bereich"
 * #treatment
-* #treatment ^designation.language = #de-DE
-* #treatment ^designation.value = "Therapeutischer Bereich"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Behandlungsbereich"
 * #therapeutic
-* #therapeutic ^designation.language = #de-DE
-* #therapeutic ^designation.value = "Therapeutischer Zielbereich"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Therapeutisch gewünschtes Level"
 * #pre
-* #pre ^designation.language = #de-DE
-* #pre ^designation.value = "Prätherapeutischer Zielbereich"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Prätherapeutisch gewünschtes Level"
 * #post
-* #post ^designation.language = #de-DE
-* #post ^designation.value = "Posttherapeutischer Zielbereich"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Posttherapeutisch gewünschtes Level"
 * #endocrine
-* #endocrine ^designation.language = #de-DE
-* #endocrine ^designation.value = "Endokrinologisch adaptiert"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Endokrin"
 * #pre-puberty
-* #pre-puberty ^designation.language = #de-DE
-* #pre-puberty ^designation.value = "Erwartungsbereich präpubertär"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Präpubertär"
 * #follicular
-* #follicular ^designation.language = #de-DE
-* #follicular ^designation.value = "Erwartungsbereich im follikulären Stadium"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Follikelphase"
 * #midcycle
-* #midcycle ^designation.language = #de-DE
-* #midcycle ^designation.value = "Erwartungsbereich in der Zyklusmitte"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Zyklusmitte"
 * #luteal
-* #luteal ^designation.language = #de-DE
-* #luteal ^designation.value = "Erwartungsbereich in der lutealen Phase"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Gelkörperphase"
 * #postmenopausal
-* #postmenopausal ^designation.language = #de-DE
-* #postmenopausal ^designation.value = "Erwartungsbereich postmenopausal"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Postmenopausal"

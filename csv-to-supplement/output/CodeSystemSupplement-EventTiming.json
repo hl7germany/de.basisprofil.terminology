@@ -15,7 +15,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Früher Morgen"
+                    "value": "Frühmorgens"
                 }
             ]
         },
@@ -24,7 +24,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Später Vormittag"
+                    "value": "Spätvormittags"
                 }
             ]
         },
@@ -51,7 +51,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Früher Nachmittag"
+                    "value": "Frühnachmittags"
                 }
             ]
         },
@@ -60,7 +60,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Später Nachmittag"
+                    "value": "Spätnachmittags"
                 }
             ]
         },
@@ -78,7 +78,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Früher Abend"
+                    "value": "Frühabends"
                 }
             ]
         },
@@ -87,7 +87,7 @@
             "designation": [
                 {
                     "language": "de-DE",
-                    "value": "Später Abend"
+                    "value": "Spätabends"
                 }
             ]
         },
@@ -106,6 +106,15 @@
                 {
                     "language": "de-DE",
                     "value": "Nach dem Schlaf"
+                }
+            ]
+        },
+        {
+            "code": "IMD",
+            "designation": [
+                {
+                    "language": "de-DE",
+                    "value": "Sofort"
                 }
             ]
         }

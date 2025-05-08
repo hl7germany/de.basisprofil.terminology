@@ -1,11 +1,12 @@
 {
   "resourceType": "CodeSystem",
-  "status": "active",
+  "status": "draft",
   "content": "supplement",
   "name": "SupplementConditionClinicalStatusCodes",
   "id": "conditionclinicalstatuscodes-supplement",
   "title": "Supplement ConditionClinicalStatusCodes",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für ConditionClinicalStatusCodes",
+  "version": "0.1.0",
   "url": "http://fhir.de/CodeSystem/conditionclinicalstatuscodes-supplement",
   "concept": [
     {
@@ -22,7 +23,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Wiederauftreten"
+          "value": "Wiederholtes Auftreten"
         }
       ]
     },
@@ -58,24 +59,22 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Behoben"
+          "value": "Nicht mehr Vorhanden"
         }
       ]
-    }
-  ],
-  "experimental": true,
-  "date": "2025-05-08",
-  "publisher": "HL7 Deutschland e.V. (Technisches Komitee Terminologie)",
-  "contact": [
+    },
     {
-      "telecom": [
+      "code": "unknown",
+      "designation": [
         {
-          "system": "url",
-          "value": "https://hl7.de/technische-komitees/terminologien/"
+          "language": "de-DE",
+          "value": "Unbekannt"
         }
       ]
     }
   ],
-  "version": "0.0.1-alpha1",
+  "date": "2022-02-09",
+  "experimental": true,
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "supplements": "http://terminology.hl7.org/CodeSystem/condition-clinical"
 }

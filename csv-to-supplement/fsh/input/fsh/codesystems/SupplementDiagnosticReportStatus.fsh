@@ -3,36 +3,39 @@ Id: diagnosticreportstatus-supplement
 Title: "Supplement DiagnosticReportStatus"
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für DiagnosticReportStatus"
 * ^content = #supplement
-
+* ^date = "2022-02-09"
+* ^experimental = true
+* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* ^status = #draft
 * ^supplements = "http://hl7.org/fhir/diagnostic-report-status"
 * ^version = "0.1.0"
 * #registered
-* #registered ^designation.language = #de-DE
-* #registered ^designation.value = "Registriert"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Registriert"
 * #partial
-* #partial ^designation.language = #de-DE
-* #partial ^designation.value = "Nicht vollständig"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Unvollständig"
 * #preliminary
-* #preliminary ^designation.language = #de-DE
-* #preliminary ^designation.value = "Vorläufig"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Vorläufig"
 * #final
-* #final ^designation.language = #de-DE
-* #final ^designation.value = "Abgeschlossen"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Endgültig"
 * #amended
-* #amended ^designation.language = #de-DE
-* #amended ^designation.value = "Geändert"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Überarbeitet"
 * #corrected
-* #corrected ^designation.language = #de-DE
-* #corrected ^designation.value = "Korrigiert"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Korrigiert"
 * #appended
-* #appended ^designation.language = #de-DE
-* #appended ^designation.value = "Angefügt"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Ergänzt"
 * #cancelled
-* #cancelled ^designation.language = #de-DE
-* #cancelled ^designation.value = "Storniert"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Abgebrochen"
 * #entered-in-error
-* #entered-in-error ^designation.language = #de-DE
-* #entered-in-error ^designation.value = "Irrtürmliche Eingabe"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Fehleingabe"
 * #unknown
-* #unknown ^designation.language = #de-DE
-* #unknown ^designation.value = "Unbekannt"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Unbekannt"

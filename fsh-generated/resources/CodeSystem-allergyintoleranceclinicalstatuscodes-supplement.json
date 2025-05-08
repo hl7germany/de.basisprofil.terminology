@@ -1,11 +1,12 @@
 {
   "resourceType": "CodeSystem",
-  "status": "active",
+  "status": "draft",
   "content": "supplement",
   "name": "SupplementAllergyIntoleranceClinicalStatusCodes",
   "id": "allergyintoleranceclinicalstatuscodes-supplement",
   "title": "Supplement AllergyIntoleranceClinicalStatusCodes",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für AllergyIntoleranceClinicalStatusCodes",
+  "version": "0.1.0",
   "url": "http://fhir.de/CodeSystem/allergyintoleranceclinicalstatuscodes-supplement",
   "concept": [
     {
@@ -31,24 +32,13 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Behoben"
+          "value": "Nicht mehr nachweisbar"
         }
       ]
     }
   ],
+  "date": "2022-02-09",
   "experimental": true,
-  "date": "2025-05-08",
-  "publisher": "HL7 Deutschland e.V. (Technisches Komitee Terminologie)",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "url",
-          "value": "https://hl7.de/technische-komitees/terminologien/"
-        }
-      ]
-    }
-  ],
-  "version": "0.0.1-alpha1",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "supplements": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
 }

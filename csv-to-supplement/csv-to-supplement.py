@@ -1,46 +1,68 @@
 import os
 import json
 import pandas as pd
-import fhirclient.models.fhirdate as fd
+from fhirclient.models.fhirdatetime import FHIRDateTime
 from fhirclient.models import codesystem as cs
 
-data = pd.read_csv(os.path.join(os.path.dirname(__file__), 'FHIR_VS_Uebersetzungen.csv'), dtype=str, encoding='UTF-8', sep=";", keep_default_na=False)
-data['Name'] = data['Name'].str.strip()
-data['Code'] = data['Code'].str.strip()
-data['vorläufige Übersetzung'] = data['vorläufige Übersetzung'].str.strip()
+# 1. CSV laden und Whitespace trimmen
+data = pd.read_csv(
+    os.path.join(os.path.dirname(__file__), 'FHIR_VS_Uebersetzungen.csv'),
+    dtype=str,
+    encoding='UTF-8',
+    sep=';',
+    keep_default_na=False
+).apply(lambda s: s.str.strip() if s.dtype == 'object' else s)
 
-idx_list = data.Name[data.Name != ''].index.tolist()
-idx_list_full = idx_list + [len(data.index)]
+# 2. Indizes für jeden neuen CodeSystem-Block
+idx_list = data.index[data['Name'] != ''].tolist()
+idx_list.append(len(data))
 
-concepts = []
-for index, row in data.iterrows():
-    concept = cs.CodeSystemConcept()
-    concept.code = row[3]
-    desi = cs.CodeSystemConceptDesignation()
-    desi.language = 'de-DE'
-    desi.value = row[5]
-    concept.designation = [desi]
-    concepts.append(concept)
+# 3. Für jeden Block ein eigenes CodeSystem erzeugen
+for i in range(len(idx_list) - 1):
+    start, end = idx_list[i], idx_list[i + 1]
+    block      = data.iloc[start:end]
+    base       = block['Name'].iloc[0]
+    slug       = base.lower().replace('/', '-').replace(' ', '-')
 
-for index, row in data.iterrows():
-    for elem,next_elem in zip(idx_list_full, idx_list_full[1:]+[idx_list_full[0]]):
-        if index == elem and index != idx_list_full[-1]:
-            codesystem = cs.CodeSystem()
-            codesystem.id = str(data.iloc[elem, 0]).lower().replace('/', '-').replace(' ', '-') + '-supplement'
-            codesystem.url = 'http://fhir.de/CodeSystem/' + str(data.iloc[elem, 0]).lower().replace('/', '-').replace(' ', '-') + '-supplement'
-            codesystem.version = '0.1.0'
-            codesystem.status = 'draft'
-            codesystem.publisher = 'HL7 Deutschland e.V. (Technisches Komitee FHIR)'
-            codesystem.name = 'Supplement' + str(data.iloc[elem, 0]).replace('/', '').replace(' ', '').replace('.', '')
-            codesystem.title = 'Supplement ' + str(data.iloc[elem, 0])
-            codesystem.experimental = True
-            codesystem.description = 'CodeSystem Supplement mit Deutschen Übersetzungen für ' + str(data.iloc[elem, 0])
-            codesystem.date = fd.FHIRDate('2022-02-09')
-            codesystem.content = 'supplement'
-            codesystem.supplements = str(data.iloc[elem, 2])
-            codesystem.concept = [concepts[idx] for idx in range(elem,next_elem)]
+    # a) Metadata
+    csys = cs.CodeSystem()
+    csys.id           = f"{slug}-supplement"
+    csys.url          = f"http://fhir.de/CodeSystem/{slug}-supplement"
+    csys.version      = '0.1.0'
+    csys.status       = 'draft'
+    csys.publisher    = 'HL7 Deutschland e.V. (Technisches Komitee FHIR)'
+    csys.name         = 'Supplement' + base.replace('/', '').replace(' ', '').replace('.', '')
+    csys.title        = 'Supplement ' + base
+    csys.experimental = True
+    csys.description  = f'CodeSystem Supplement mit Deutschen Übersetzungen für {base}'
+    csys.date         = FHIRDateTime("2022-02-09")
+    csys.content      = 'supplement'
 
-            fname = os.path.join(os.path.dirname(__file__), 'output/CodeSystemSupplement-' + (data.iloc[elem, 0]).replace('/', '-') + '.json')
-            with open(fname, 'w') as outfile:
-                json.dump(codesystem.as_json(), outfile, indent=4, ensure_ascii=False)
-            print(f"CodeSystem json written to file {fname}")
+    # b) Supplements aus der ersten Zeile des Blocks
+    url = block['Codesystem URL'].iloc[0]
+    if not url:
+        print(f"Warnung: keine Codesystem-URL für Block '{base}' gefunden")
+    csys.supplements = url
+
+    # c) Konzepte nur für diesen Block
+    csys.concept = []
+    for _, row in block.iterrows():
+        concept = cs.CodeSystemConcept()
+        concept.code = row['Code']
+        desi = cs.CodeSystemConceptDesignation()
+        desi.language = 'de-DE'
+        desi.value    = row['vorläufige Übersetzung']
+        concept.designation = [desi]
+        csys.concept.append(concept)
+
+    # d) JSON-Datei schreiben mit altem Filename-Format
+    safe_base = base.replace(' ', '').replace('/', '')
+    out_fname = os.path.join(
+        os.path.dirname(__file__),
+        'output',
+        f"CodeSystemSupplement-{safe_base}.json"
+    )
+    with open(out_fname, 'w', encoding='utf-8') as f:
+        json.dump(csys.as_json(), f, indent=4, ensure_ascii=False)
+
+    print(f"Wrote: {out_fname}")

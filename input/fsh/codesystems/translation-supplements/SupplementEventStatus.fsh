@@ -2,30 +2,34 @@ CodeSystem: SupplementEventStatus
 Id: eventstatus-supplement
 Title: "Supplement EventStatus"
 Description: "CodeSystem Supplement mit Deutschen Übersetzungen für EventStatus"
-* insert Meta
 * ^content = #supplement
+* ^date = "2022-02-09"
+* ^experimental = true
+* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* ^status = #draft
 * ^supplements = "http://hl7.org/fhir/event-status"
+* ^version = "0.1.0"
 * #preparation
-* #preparation ^designation.language = #de-DE
-* #preparation ^designation.value = "In Vorbereitung"
+  * ^designation.language = #de-DE
+  * ^designation.value = "In Vorbereitung"
 * #in-progress
-* #in-progress ^designation.language = #de-DE
-* #in-progress ^designation.value = "Im Gange"
+  * ^designation.language = #de-DE
+  * ^designation.value = "In Bearbeitung"
 * #not-done
-* #not-done ^designation.language = #de-DE
-* #not-done ^designation.value = "Nicht durchgeführt"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Nicht durchgeführt"
 * #on-hold
-* #on-hold ^designation.language = #de-DE
-* #on-hold ^designation.value = "Suspendiert"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Pausiert"
 * #stopped
-* #stopped ^designation.language = #de-DE
-* #stopped ^designation.value = "Gestoppt"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Abgebrochen"
 * #completed
-* #completed ^designation.language = #de-DE
-* #completed ^designation.value = "Erledigt"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Abgeschlossen"
 * #entered-in-error
-* #entered-in-error ^designation.language = #de-DE
-* #entered-in-error ^designation.value = "Irrtümliche Eingabe"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Fehleingabe"
 * #unknown
-* #unknown ^designation.language = #de-DE
-* #unknown ^designation.value = "Unbekannt"
+  * ^designation.language = #de-DE
+  * ^designation.value = "Unbekannt"

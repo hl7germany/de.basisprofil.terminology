@@ -14,7 +14,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Gruppe"
+          "value": "Group"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Anzeige"
+          "value": "Display"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Frage"
+          "value": "Question"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Boolscher Wert"
+          "value": "Boolean"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Dezimalzahl"
+          "value": "Decimal"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Ganzzahl"
+          "value": "Integer"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Datum"
+          "value": "Date"
         }
       ]
     },
@@ -77,7 +77,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Datum/Zeit"
+          "value": "Date Time"
         }
       ]
     },
@@ -86,7 +86,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Uhrzeit"
+          "value": "Time"
         }
       ]
     },
@@ -95,7 +95,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Freitext"
+          "value": "String"
         }
       ]
     },
@@ -113,7 +113,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "URL"
+          "value": "Url"
         }
       ]
     },
@@ -122,7 +122,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Wahl"
+          "value": "Choice"
         }
       ]
     },
@@ -131,7 +131,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Freie Wahl"
+          "value": "Open Choice"
         }
       ]
     },
@@ -140,7 +140,25 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Wert"
+          "value": "Quantity"
+        }
+      ]
+    },
+    {
+      "code": "attachment",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Attachment"
+        }
+      ]
+    },
+    {
+      "code": "reference",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Reference"
         }
       ]
     }

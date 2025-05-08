@@ -1,11 +1,12 @@
 {
   "resourceType": "CodeSystem",
-  "status": "active",
+  "status": "draft",
   "content": "supplement",
   "name": "SupplementAllergyIntoleranceVerificationStatusCodes",
   "id": "allergyintoleranceverificationstatuscodes-supplement",
   "title": "Supplement AllergyIntoleranceVerificationStatusCodes",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für AllergyIntoleranceVerificationStatusCodes",
+  "version": "0.1.0",
   "url": "http://fhir.de/CodeSystem/allergyintoleranceverificationstatuscodes-supplement",
   "concept": [
     {
@@ -14,6 +15,15 @@
         {
           "language": "de-DE",
           "value": "Unbestätigt"
+        }
+      ]
+    },
+    {
+      "code": "presumed",
+      "designation": [
+        {
+          "language": "de-DE",
+          "value": "Vermutet"
         }
       ]
     },
@@ -31,7 +41,7 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Widerlegt"
+          "value": "Ausgeschlossen"
         }
       ]
     },
@@ -40,24 +50,13 @@
       "designation": [
         {
           "language": "de-DE",
-          "value": "Versehentlich eingegeben"
+          "value": "Irrtümliche Eingabe"
         }
       ]
     }
   ],
+  "date": "2022-02-09",
   "experimental": true,
-  "date": "2025-05-08",
-  "publisher": "HL7 Deutschland e.V. (Technisches Komitee Terminologie)",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "url",
-          "value": "https://hl7.de/technische-komitees/terminologien/"
-        }
-      ]
-    }
-  ],
-  "version": "0.0.1-alpha1",
+  "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
   "supplements": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
 }

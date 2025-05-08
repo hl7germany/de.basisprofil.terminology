@@ -1,0 +1,7 @@
+{
+  "name": "de.basisprofil.terminology"
+  "version": "0.0.1-alpha1",
+  "fhirVersions": [
+    "4.0.1"
+  ]
+}

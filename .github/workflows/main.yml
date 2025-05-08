@@ -10,10 +10,10 @@ on:
       - 'input/**'
       - '.github/workflows/**'
     branches-ignore:
-      - 'main**'
+      - main
   pull_request:
     branches:
-      - 'main**'
+      - main
   workflow_call:
     secrets:
       SIMPLIFIER_USERNAME:
@@ -75,8 +75,8 @@ jobs:
             -display-issues-are-warnings
             -resolution-context file:fsh-generated/resources/
 #            -advisor-file validator/advisor.json
-#          SIMPLIFIER_USERNAME: ${{ secrets.SIMPLIFIER_USERNAME }}
-#          SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}
+          SIMPLIFIER_USERNAME: ${{ secrets.SIMPLIFIER_USERNAME }}
+          SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}
           SUSHI_ENABLED: true
           SUSHI_OPTIONS: Resources/
           EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA VALIDATION_CONFORMANCE_DOTNET
@@ -96,25 +96,7 @@ jobs:
           bundle-file: validation.json
           include: errors
           filters: |
-#            # Struktur: fileName|messageId|detailsWildcard|location
-#            # Error because of wrong magic loinc code/bug in java validator
-#            Observation-Linksatrialer-Druck.json|VALIDATION_VAL_PROFILE_MINIMUM_MAGIC|*magic LOINC code*|Observation.code
-#            # Error because of wrong magic loinc code/bug in java validator
-#            Observation-Linksventrikulaerer-Druck.json|VALIDATION_VAL_PROFILE_MINIMUM|*minimum required = 1*|Observation
-#            # Error because of wrong magic loinc code/bug in java validator
-#            Observation-Linksventrikulaerer-Druck.json|VALIDATION_VAL_PROFILE_MINIMUM_SLICE|*matching slice is required*|Observation
-#            # Error because of wrong magic loinc code/bug in java validator
-#            Observation-Linksventrikulaerer-Druck.json|VALIDATION_VAL_PROFILE_MINIMUM_MAGIC|*magic LOINC code*|Observation.code
-#            # Error because of wrong magic loinc code/bug in java validator
-#            Observation-Pulmonalarterieller-Blutdruck.json|VALIDATION_VAL_PROFILE_MINIMUM_MAGIC|*magic LOINC code*|Observation.code
-#            # Error because of wrong magic loinc code/bug in java validator
-#            Observation-Rechtsatrialer-Druck.json|VALIDATION_VAL_PROFILE_MINIMUM_MAGIC|*magic LOINC code*|Observation.code
-#            # Error because of wrong magic loinc code/bug in java validator
-#            Observation-Rechtsventrikulaerer-Druck.json|VALIDATION_VAL_PROFILE_MINIMUM_MAGIC|*magic LOINC code*|Observation.code
-#            # Error because of the java validator not supporting version "*"
-#            Procedure-Appendektomie.json||*"http://fhir.de/CodeSystem/bfarm/ops"*|Procedure.code.coding[1].version
-#            # Error caused by a bug in the java validator
-#            StructureDefinition-ISiKKontaktGesundheitseinrichtung.json|Unknown_Code_in_Version||StructureDefinition.differential.element[24].pattern.ofType(CodeableConcept).coding[0].code
+#            fileName|messageId|detailsWildcard|location
 
       - name: Validate Resource Status
         uses: patrick-werner/fhir-resource-status-check@1.2.0

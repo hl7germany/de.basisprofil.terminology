@@ -6,8 +6,7 @@
   "id": "goallifecyclestatus-supplement",
   "title": "Supplement GoalLifecycleStatus",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für GoalLifecycleStatus",
-  "version": "0.1.0",
-  "url": "http://fhir.de/CodeSystem/goallifecyclestatus-supplement",
+  "url": "http://fhir.de/terminologie/CodeSystem/goallifecyclestatus-supplement",
   "concept": [
     {
       "code": "proposed",
@@ -94,5 +93,6 @@
   "date": "2022-02-09",
   "experimental": true,
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "supplements": "http://hl7.org/fhir/goal-status"
+  "supplements": "http://hl7.org/fhir/goal-status",
+  "version": "0.1.0"
 }

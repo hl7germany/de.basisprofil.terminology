@@ -6,8 +6,7 @@
   "id": "eventstatus-supplement",
   "title": "Supplement EventStatus",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für EventStatus",
-  "version": "0.1.0",
-  "url": "http://fhir.de/CodeSystem/eventstatus-supplement",
+  "url": "http://fhir.de/terminologie/CodeSystem/eventstatus-supplement",
   "concept": [
     {
       "code": "preparation",
@@ -85,5 +84,6 @@
   "date": "2022-02-09",
   "experimental": true,
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "supplements": "http://hl7.org/fhir/event-status"
+  "supplements": "http://hl7.org/fhir/event-status",
+  "version": "0.1.0"
 }

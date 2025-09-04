@@ -6,8 +6,7 @@
   "id": "allergyintoleranceclinicalstatuscodes-supplement",
   "title": "Supplement AllergyIntoleranceClinicalStatusCodes",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für AllergyIntoleranceClinicalStatusCodes",
-  "version": "0.1.0",
-  "url": "http://fhir.de/CodeSystem/allergyintoleranceclinicalstatuscodes-supplement",
+  "url": "http://fhir.de/terminologie/CodeSystem/allergyintoleranceclinicalstatuscodes-supplement",
   "concept": [
     {
       "code": "active",
@@ -40,5 +39,6 @@
   "date": "2022-02-09",
   "experimental": true,
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "supplements": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+  "supplements": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+  "version": "0.1.0"
 }

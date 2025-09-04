@@ -6,8 +6,7 @@
   "id": "observationreferencerangemeaningcodes-supplement",
   "title": "Supplement ObservationReferenceRangeMeaningCodes",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für ObservationReferenceRangeMeaningCodes",
-  "version": "0.1.0",
-  "url": "http://fhir.de/CodeSystem/observationreferencerangemeaningcodes-supplement",
+  "url": "http://fhir.de/terminologie/CodeSystem/observationreferencerangemeaningcodes-supplement",
   "concept": [
     {
       "code": "type",
@@ -130,5 +129,6 @@
   "date": "2022-02-09",
   "experimental": true,
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "supplements": "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+  "supplements": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+  "version": "0.1.0"
 }

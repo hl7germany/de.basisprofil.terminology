@@ -6,8 +6,7 @@
   "id": "contactpointsystem-supplement",
   "title": "Supplement ContactPointSystem",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für ContactPointSystem",
-  "version": "0.1.0",
-  "url": "http://fhir.de/CodeSystem/contactpointsystem-supplement",
+  "url": "http://fhir.de/terminologie/CodeSystem/contactpointsystem-supplement",
   "concept": [
     {
       "code": "other",
@@ -76,5 +75,6 @@
   "date": "2022-02-09",
   "experimental": true,
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "supplements": "http://hl7.org/fhir/contact-point-system"
+  "supplements": "http://hl7.org/fhir/contact-point-system",
+  "version": "0.1.0"
 }

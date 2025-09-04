@@ -6,8 +6,7 @@
   "id": "conditionclinicalstatuscodes-supplement",
   "title": "Supplement ConditionClinicalStatusCodes",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für ConditionClinicalStatusCodes",
-  "version": "0.1.0",
-  "url": "http://fhir.de/CodeSystem/conditionclinicalstatuscodes-supplement",
+  "url": "http://fhir.de/terminologie/CodeSystem/conditionclinicalstatuscodes-supplement",
   "concept": [
     {
       "code": "active",
@@ -76,5 +75,6 @@
   "date": "2022-02-09",
   "experimental": true,
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "supplements": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+  "supplements": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+  "version": "0.1.0"
 }

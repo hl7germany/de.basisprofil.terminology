@@ -6,8 +6,7 @@
   "id": "v3.observationinterpretation-supplement",
   "title": "Supplement v3.ObservationInterpretation",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für v3.ObservationInterpretation",
-  "version": "0.1.0",
-  "url": "http://fhir.de/CodeSystem/v3.observationinterpretation-supplement",
+  "url": "http://fhir.de/terminologie/CodeSystem/v3.observationinterpretation-supplement",
   "concept": [
     {
       "code": "_GeneticObservationInterpretation",
@@ -436,5 +435,6 @@
   "date": "2022-02-09",
   "experimental": true,
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "supplements": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+  "supplements": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+  "version": "0.1.0"
 }

@@ -6,8 +6,7 @@
   "id": "questionnaireitemtype-supplement",
   "title": "Supplement QuestionnaireItemType",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für QuestionnaireItemType",
-  "version": "0.1.0",
-  "url": "http://fhir.de/CodeSystem/questionnaireitemtype-supplement",
+  "url": "http://fhir.de/terminologie/CodeSystem/questionnaireitemtype-supplement",
   "concept": [
     {
       "code": "group",
@@ -166,5 +165,6 @@
   "date": "2022-02-09",
   "experimental": true,
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "supplements": "http://hl7.org/fhir/item-type"
+  "supplements": "http://hl7.org/fhir/item-type",
+  "version": "0.1.0"
 }

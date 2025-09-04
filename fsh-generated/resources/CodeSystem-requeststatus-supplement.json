@@ -6,8 +6,7 @@
   "id": "requeststatus-supplement",
   "title": "Supplement RequestStatus",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für RequestStatus",
-  "version": "0.1.0",
-  "url": "http://fhir.de/CodeSystem/requeststatus-supplement",
+  "url": "http://fhir.de/terminologie/CodeSystem/requeststatus-supplement",
   "concept": [
     {
       "code": "draft",
@@ -76,5 +75,6 @@
   "date": "2022-02-09",
   "experimental": true,
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "supplements": "http://hl7.org/fhir/request-status"
+  "supplements": "http://hl7.org/fhir/request-status",
+  "version": "0.1.0"
 }

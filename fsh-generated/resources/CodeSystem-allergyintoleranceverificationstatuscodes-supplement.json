@@ -6,8 +6,7 @@
   "id": "allergyintoleranceverificationstatuscodes-supplement",
   "title": "Supplement AllergyIntoleranceVerificationStatusCodes",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für AllergyIntoleranceVerificationStatusCodes",
-  "version": "0.1.0",
-  "url": "http://fhir.de/CodeSystem/allergyintoleranceverificationstatuscodes-supplement",
+  "url": "http://fhir.de/terminologie/CodeSystem/allergyintoleranceverificationstatuscodes-supplement",
   "concept": [
     {
       "code": "unconfirmed",
@@ -58,5 +57,6 @@
   "date": "2022-02-09",
   "experimental": true,
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "supplements": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+  "supplements": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+  "version": "0.1.0"
 }

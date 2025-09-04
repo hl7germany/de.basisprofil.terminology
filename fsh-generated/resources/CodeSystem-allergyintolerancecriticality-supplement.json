@@ -6,8 +6,7 @@
   "id": "allergyintolerancecriticality-supplement",
   "title": "Supplement AllergyIntoleranceCriticality",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für AllergyIntoleranceCriticality",
-  "version": "0.1.0",
-  "url": "http://fhir.de/CodeSystem/allergyintolerancecriticality-supplement",
+  "url": "http://fhir.de/terminologie/CodeSystem/allergyintolerancecriticality-supplement",
   "concept": [
     {
       "code": "low",
@@ -40,5 +39,6 @@
   "date": "2022-02-09",
   "experimental": true,
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "supplements": "http://hl7.org/fhir/allergy-intolerance-criticality"
+  "supplements": "http://hl7.org/fhir/allergy-intolerance-criticality",
+  "version": "0.1.0"
 }

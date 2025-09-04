@@ -6,8 +6,7 @@
   "id": "goalpriority-supplement",
   "title": "Supplement GoalPriority",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für GoalPriority",
-  "version": "0.1.0",
-  "url": "http://fhir.de/CodeSystem/goalpriority-supplement",
+  "url": "http://fhir.de/terminologie/CodeSystem/goalpriority-supplement",
   "concept": [
     {
       "code": "high-priority",
@@ -40,5 +39,6 @@
   "date": "2022-02-09",
   "experimental": true,
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "supplements": "http://terminology.hl7.org/CodeSystem/goal-priority"
+  "supplements": "http://terminology.hl7.org/CodeSystem/goal-priority",
+  "version": "0.1.0"
 }

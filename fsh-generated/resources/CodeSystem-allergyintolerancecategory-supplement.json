@@ -6,8 +6,7 @@
   "id": "allergyintolerancecategory-supplement",
   "title": "Supplement AllergyIntoleranceCategory",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für AllergyIntoleranceCategory",
-  "version": "0.1.0",
-  "url": "http://fhir.de/CodeSystem/allergyintolerancecategory-supplement",
+  "url": "http://fhir.de/terminologie/CodeSystem/allergyintolerancecategory-supplement",
   "concept": [
     {
       "code": "food",
@@ -49,5 +48,6 @@
   "date": "2022-02-09",
   "experimental": true,
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "supplements": "http://hl7.org/fhir/allergy-intolerance-category"
+  "supplements": "http://hl7.org/fhir/allergy-intolerance-category",
+  "version": "0.1.0"
 }

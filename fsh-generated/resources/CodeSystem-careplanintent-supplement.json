@@ -6,8 +6,7 @@
   "id": "careplanintent-supplement",
   "title": "Supplement CarePlanIntent",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für CarePlanIntent",
-  "version": "0.1.0",
-  "url": "http://fhir.de/CodeSystem/careplanintent-supplement",
+  "url": "http://fhir.de/terminologie/CodeSystem/careplanintent-supplement",
   "concept": [
     {
       "code": "proposal",
@@ -94,5 +93,6 @@
   "date": "2022-02-09",
   "experimental": true,
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "supplements": "http://hl7.org/fhir/request-intent"
+  "supplements": "http://hl7.org/fhir/request-intent",
+  "version": "0.1.0"
 }

@@ -6,8 +6,7 @@
   "id": "goalachievementstatus-supplement",
   "title": "Supplement GoalAchievementStatus",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für GoalAchievementStatus",
-  "version": "0.1.0",
-  "url": "http://fhir.de/CodeSystem/goalachievementstatus-supplement",
+  "url": "http://fhir.de/terminologie/CodeSystem/goalachievementstatus-supplement",
   "concept": [
     {
       "code": "in-progress",
@@ -94,5 +93,6 @@
   "date": "2022-02-09",
   "experimental": true,
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "supplements": "http://terminology.hl7.org/CodeSystem/goal-achievement"
+  "supplements": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+  "version": "0.1.0"
 }

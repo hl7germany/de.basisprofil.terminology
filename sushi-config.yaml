@@ -3,9 +3,9 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: de.fhir
-canonical: http://fhir.de
-name: BasisprofilTerminologie
+id: de.fhir.terminologie
+canonical: http://fhir.de/terminologie
+name: TerminologieDE
 # title: Example Title
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
@@ -56,9 +56,11 @@ publisher:
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
 # resource), the code is the YAML key. If a parameter allows repeating
-# values, the value in the YAML should be a sequence/array. For a
-# partial list of allowed parameters see:
-# https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
+# values, the value in the YAML should be a sequence/array.
+# For parameters defined by core FHIR see:
+# http://build.fhir.org/codesystem-guide-parameter-code.html
+# For parameters defined by the FHIR Tools IG see:
+# http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
 #
 # parameters:
 #   excludettl: true
@@ -72,9 +74,9 @@ publisher:
 # │ input/includes. To use a provided input/includes/menu.xml file, delete the "menu"              │
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-#menu:
-#  Home: index.html
-#  Artifacts: artifacts.html
+menu:
+  Home: index.html
+  Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
@@ -97,7 +99,8 @@ publisher:
 # uses the type as the YAML key and the profile as its value. Since
 # FHIR does not explicitly disallow more than one profile per type,
 # neither do we; the value can be a single profile URL or an array
-# of profile URLs.
+# of profile URLs. If a value is an id or name, SUSHI will replace
+# it with the correct canonical when generating the IG JSON.
 #
 # global:
 #   Patient: http://example.org/fhir/StructureDefinition/my-patient-profile
@@ -113,9 +116,13 @@ publisher:
 # replace the generated entry. If it doesn't match any generated
 # entries, it will be added to the generated entries. The format
 # follows IG.definition.resource with the following differences:
-#   * use IG.definition.resource.reference.reference as the YAML key
+#   * use IG.definition.resource.reference.reference as the YAML key.
+#   * if the key is an id or name, SUSHI will replace it with the
+#     correct URL when generating the IG JSON.
 #   * specify "omit" to omit a FSH-generated resource from the
 #     resource list.
+#   * if the exampleCanonical is an id or name, SUSHI will replace
+#     it with the correct canonical when generating the IG JSON.
 #   * groupingId can be used, but top-level groups syntax may be a
 #     better option (see below).
 # The following are simple examples to demonstrate what this might
@@ -134,7 +141,9 @@ publisher:
 # are provided by the templating framework, but if authors want to
 # use their own instead, they can use the mechanism below.  This will
 # create IG.definition.grouping entries and associate the individual
-# resource entries with the corresponding groupIds.
+# resource entries with the corresponding groupIds. If a resource
+# is specified by id or name, SUSHI will replace it with the correct
+# URL when generating the IG JSON.
 #
 # groups:
 #   GroupA:
@@ -175,7 +184,7 @@ publisher:
 # If set to true, no IG related content will be generated.
 # The default value for this property is false.
 #
-FSHOnly: true
+# FSHOnly: false
 #
 #
 # When set to true, the "short" and "definition" field on the root element of an Extension will
@@ -187,7 +196,11 @@ FSHOnly: true
 # The instanceOptions property is used to configure certain aspects of how SUSHI processes instances.
 # See the individual option definitions below for more detail.
 #
-# instanceOptions:
+instanceOptions:
+  # When set to true, slices must be referred to by name and not only by a numeric index in order to be used
+  # in an Instance's assignment rule. All slices appear in the order in which they are specified in FSH rules.
+  # While SUSHI defaults to false for legacy reasons, manualSliceOrding is recommended for new projects.
+  manualSliceOrdering: true # true | false
 #   Determines for which types of Instances SUSHI will automatically set meta.profile
 #   if InstanceOf references a profile:
 #

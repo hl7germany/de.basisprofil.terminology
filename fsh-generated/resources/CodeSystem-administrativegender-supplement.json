@@ -6,8 +6,7 @@
   "id": "administrativegender-supplement",
   "title": "Supplement AdministrativeGender",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für AdministrativeGender",
-  "version": "0.1.0",
-  "url": "http://fhir.de/CodeSystem/administrativegender-supplement",
+  "url": "http://fhir.de/terminologie/CodeSystem/administrativegender-supplement",
   "concept": [
     {
       "code": "male",
@@ -49,5 +48,6 @@
   "date": "2022-02-09",
   "experimental": true,
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "supplements": "http://hl7.org/fhir/administrative-gender"
+  "supplements": "http://hl7.org/fhir/administrative-gender",
+  "version": "0.1.0"
 }

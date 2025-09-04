@@ -6,8 +6,7 @@
   "id": "eventtiming-supplement",
   "title": "Supplement EventTiming",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für EventTiming",
-  "version": "0.1.0",
-  "url": "http://fhir.de/CodeSystem/eventtiming-supplement",
+  "url": "http://fhir.de/terminologie/CodeSystem/eventtiming-supplement",
   "concept": [
     {
       "code": "MORN",
@@ -130,5 +129,6 @@
   "date": "2022-02-09",
   "experimental": true,
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "supplements": "http://hl7.org/fhir/event-timing"
+  "supplements": "http://hl7.org/fhir/event-timing",
+  "version": "0.1.0"
 }

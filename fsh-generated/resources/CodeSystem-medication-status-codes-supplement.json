@@ -6,8 +6,7 @@
   "id": "medication-status-codes-supplement",
   "title": "Supplement Medication Status Codes",
   "description": "CodeSystem Supplement mit Deutschen Übersetzungen für Medication Status Codes",
-  "version": "0.1.0",
-  "url": "http://fhir.de/CodeSystem/medication-status-codes-supplement",
+  "url": "http://fhir.de/terminologie/CodeSystem/medication-status-codes-supplement",
   "concept": [
     {
       "code": "recorded",
@@ -40,5 +39,6 @@
   "date": "2022-02-09",
   "experimental": true,
   "publisher": "HL7 Deutschland e.V. (Technisches Komitee FHIR)",
-  "supplements": "http://hl7.org/fhir/CodeSystem/medication-statement-status"
+  "supplements": "http://hl7.org/fhir/CodeSystem/medication-statement-status",
+  "version": "0.1.0"
 }
